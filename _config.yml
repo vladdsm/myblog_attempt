@@ -12,7 +12,7 @@
 
 # Site settings
 title: "Industry 4.0"
-description: Flowing creativity &#x2192; Cascading bliss
+description: Save your time &#x2192; Let computers do the job!
 owner:
   name: Vladimir Zhbanko # or company name
   email: vz.home.experiments@gmail.com
@@ -34,15 +34,15 @@ closing-para: Feel free to get in touch. Cheers!
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/arkadianriver
-  github: https://github.com/arkadianriver
-  linkedin-square: https://linkedin.com/in/garyfaircloth
-  facebook-official: https://facebook.com/gary.faircloth
-  google-plus-square: https://plus.google.com/u/0/+GaryFaircloth
+  twitter: https://twitter.com/vladdsm
+  github: https://github.com/vladdsm
+  linkedin-square: https://linkedin.com/in/vladimir-zhbanko-a9285188/
+  #facebook-official: https://facebook.com/
+  google-plus-square: https://plus.google.com/u/0/106524010967136538054
   email: /contact/
   #flickr:
   #instagram:
-  #youtube-square:
+  youtube-square: http://www.youtube.com/channel/UCHkFSk-4Suxqcn4dqzo_ZuQ
   #spotify:
   #stack-overflow:
   #vimeo:
