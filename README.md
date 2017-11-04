@@ -1,6 +1,7 @@
-## arkadianriver.com
+## Instructions to running this website
 
-My personal web site, based off the http://html5up.net/spectral design by
+Source: arkadianriver.com:
+based off the http://html5up.net/spectral design by
 [@ajlkn](http://twitter.com/ajlkn).
 The site is made for blog and portfolio content. The blog can contain both
 personal entries and entries by syndicated authors.
