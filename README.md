@@ -12,14 +12,14 @@ This repo is the same code I use for my site, excluding my posts.
 
 ### If you clone or fork this repo to use it:
 
-0. Install [Jekyll](https://jekyllrb.com/) (version 3.1.2 or higher).
+0. Install [Jekyll](https://jekyllrb.com/) (version 3.1.2 or higher). DONE
 
 0. Tweak the site to make it your own. Jekyll uses [YAML files](http://www.yaml.org/start.html)
    for its site variables:
 
-   a. Edit the `_config.yml` file, replacing the values for each key with your info.
+   a. Edit the `_config.yml` file, replacing the values for each key with your info. DONE (seems to be)
 
-   b. Add a `_data/tokens.yml` file with your IDs & mail program.
+   b. Add a `_data/tokens.yml` file with your IDs & mail program. **Not clear**
       See the `_data/tokens-template.yml.` file for example entries.
 
    c. Add author info for yourself in `_data/authors.yml` as the first
@@ -32,9 +32,9 @@ This repo is the same code I use for my site, excluding my posts.
 0. Create your posts:
 
    a. Use the posts in the 31st century as guides for yours. They're built by jekyll only when
-      the `--future` option is used.
+      the `--future` option is used.  **Where should I add this option?**
 
-   b. You can run `ruby compose.rb` to create new draft posts.
+   b. You can run `ruby compose.rb` to create new draft posts. 
 
 0. Test and publish your site:
 

@@ -1,5 +1,5 @@
-#!/usr/bin/ruby
-#
+#!/usr/bin/ruby   **This is the script that generates posts**
+# 
 # my first ruby script!
 # (could surely be better, but it gets the job done well enough)
 #
