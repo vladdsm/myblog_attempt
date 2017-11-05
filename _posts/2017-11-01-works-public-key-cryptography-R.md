@@ -2,6 +2,7 @@
 priority: 0.7
 title: Keep your Secrets under Control
 excerpt: Using Public Key Cryptography in R Statistical Software
+author: vladdsm
 categories: works
 background-image: works-sample.png
 tags:

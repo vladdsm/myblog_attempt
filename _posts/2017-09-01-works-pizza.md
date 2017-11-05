@@ -2,7 +2,9 @@
 priority: 0.6
 title: Pizza cooking at Home. Easy!
 excerpt: Just filmed how I do pizza on Sundays...
-categories: works
+categories:
+ - works
+author: vladdsm
 background-image: works-sample.png
 tags:
   - Pizza

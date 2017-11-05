@@ -25,7 +25,7 @@ url: "https://vladdsm.github.io/myblog_attempt" # the base hostname & protocol f
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome!  
-  text: This is just about two things -> Projects and Blog with hope it will be useful for you...
+  text: Projects and Blog with hope it will be useful for you...
 # - title for your blog's featured posts
 features-title: Featured topics
 # - displayed at the bottom
@@ -39,7 +39,7 @@ social:
   linkedin-square: https://linkedin.com/in/vladimir-zhbanko-a9285188/
   #facebook-official: https://facebook.com/
   google-plus-square: https://plus.google.com/u/0/106524010967136538054
-  email: /contact/
+  #email: /contact/
   #flickr:
   #instagram:
   youtube-square: http://www.youtube.com/channel/UCHkFSk-4Suxqcn4dqzo_ZuQ
