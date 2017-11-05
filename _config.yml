@@ -27,10 +27,10 @@ greeting:
   title: Welcome!  
   text: Projects and Blog with hope it will be useful for you...
 # - title for your blog's featured posts
-features-title: Featured topics
+features-title: Place for great ideas
 # - displayed at the bottom
 closing-head: Thanks for visiting
-closing-para: Feel free to get in touch [use social, button is not working and I don't know /yet/ how to remove it;)]. Cheers!
+closing-para: Feel free to get in touch. Cheers!
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
