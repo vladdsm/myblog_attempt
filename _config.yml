@@ -11,7 +11,7 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: "Industry 4.0"
+title: "Industry 4.0 and more..."
 description: Save your time &#x2192; Let computers do the job!
 owner:
   name: Vladimir Zhbanko # or company name
@@ -25,12 +25,12 @@ url: "https://vladdsm.github.io/myblog_attempt" # the base hostname & protocol f
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome!  
-  text: I hope you enjoy my collection
+  text: This is just about two things -> Projects and Blog with hope it will be useful for you...
 # - title for your blog's featured posts
 features-title: Featured topics
 # - displayed at the bottom
 closing-head: Thanks for visiting
-closing-para: Feel free to get in touch [use social, button is not working]. Cheers!
+closing-para: Feel free to get in touch [use social, button is not working and I don't know /yet/ how to remove it;)]. Cheers!
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
