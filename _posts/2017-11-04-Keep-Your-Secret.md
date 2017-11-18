@@ -3,9 +3,10 @@
 priority: 0.6
 title: Public Key Cryptography in R with openSSL
 excerpt: How to use R and openSSL to manage your passwords
-categories: works
+categories: topics
 background-image: works-sample.png
-tags: openssl
+tags:
+- openssl
 ---
 
 #### Summary

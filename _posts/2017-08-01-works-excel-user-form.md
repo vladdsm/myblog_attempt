@@ -2,8 +2,7 @@
 priority: 0.6
 title: Save Your Time with Excel User Form
 excerpt: Simple way to collect data with simple tool
-categories:
- - works
+categories: works
 icon: industry
 author: vladdsm
 background-image: works-sample.png
@@ -22,4 +21,4 @@ tags:
 
 #### Summary
 
-Created and posted course on UDEMY, feel free to check it out!
+Created and posted course on UDEMY, feel free to [check it out!](https://www.udemy.com/save-your-time-with-excel-userform/?couponCode=SAVE-YOUR-TIME-20)

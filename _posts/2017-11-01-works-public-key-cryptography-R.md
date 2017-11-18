@@ -1,5 +1,5 @@
 ---
-priority: 0.7
+priority: 0.6
 title: Keep your Secrets under Control
 excerpt: Using Public Key Cryptography in R Statistical Software
 author: vladdsm
@@ -21,3 +21,5 @@ tags:
 #### Summary
 
 Learn to exploit Public Key Cryptography to stop your Password Chaos
+
+Check out the course [here](https://www.udemy.com/keep-your-secrets-under-control/?couponCode=KEEP-SECRET-20)
