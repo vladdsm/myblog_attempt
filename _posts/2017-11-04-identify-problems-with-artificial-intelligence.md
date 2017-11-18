@@ -2,7 +2,7 @@
 title: Identify Problems with Artificial Intelligence
 excerpt: Bring your Complex Problem Solving Skills to a new level
 author: Vladimir Zhbanko
-permalink: /topics/
+permalink: /topics/Industry40
 categories:
   - topics
   - Industry40
