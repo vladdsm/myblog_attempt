@@ -4,7 +4,6 @@ excerpt: Bring your Complex Problem Solving Skills to a new level
 author: vladdsm
 categories:
   - topics
-  - industry
 date: 2017-11-04 16:18:17
 ---
 

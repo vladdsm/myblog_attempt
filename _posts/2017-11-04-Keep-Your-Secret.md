@@ -3,26 +3,23 @@
 priority: 0.6
 title: Public Key Cryptography in R with openSSL
 excerpt: How to use R and openSSL to manage your passwords
-categories: topics
+categories: works
 background-image: works-sample.png
 tags:
-- openssl
+ -openssl
 ---
 
 #### Summary
---------------
 
 Have your heard this term 'password chaos'? This is when you exposed to necessity to keep creating stronger passwords, not re-using them across resourses, replacing them every now and then and so on. The only solution seems to be using special programs to encrypt/decrypt your passwords. Of course there are programs designed to do this, they may even be already present by default in your computer. If not it would be necessary to add one extra program, paid or free.
 
 I had a different idea. Why can't we use **Public Key Cryptography** to enrypt simple text or data tables with *R* Statistical Software? Indeed, it appeared to be extremely easy. All you need is **10 lines of code**... Just read the text below to get a feel
 
 ##### Cryptography
-------------
 
 Going to internals of **Cryptography** is something really not for everybody. It smells complex math and must be a lot of code behind... It's also something related to conspiracy stories, spy scandals, NSA and so on. But it's also exciting new technologies like blockchain, new businesses, new opportunity! Sometimes people are even using this technology without even noticing it... think about end to end encryption on your **What's Up** messenger...
 
 ##### Public Key Cryptography
------------------------
 
 **Public Key Cryptography** is a type of Cryptographic system that uses set's of keys. They are known to be Public and Private. These keys in combination with a fixed algorithm are used to Encrypt or Lock information and to Decrypt or Unlock information. Let's have a quick summary of what are those and how are they made. In order to make things really interesting lets look into the process itself by encrypting and decrypting a popular phrase **'Hello World'**. I will be using **R** package **openssl** to demonstrate that. For the sake of make things 'easy' and not generating intermediate objects I will also load **tidyverse** package to use the `pipe|%>%`
 
@@ -157,12 +154,10 @@ rm(secret_encrypted)
 ```
 
 #### Risks
------
 
 Managing secrets is really hard. All has it's price. If you forget your password you may still restore it but if you encrypt important business information and can not decrypt it... or if someone has got a copy of your private key... Unforgunate risks does exists so you may need to spend some time to practice your way using Public Key Cryptography on **Dummy** data...
 
 #### Conclusion
-----------
 
 Let's make some statistics:
 
@@ -177,7 +172,6 @@ Let's make some statistics:
 With just 10 lines of code you can create your keys, store them to the file, encrypt and decrypt your information!
 
 #### postscriptum
-------------
 
 beyong the theory I have also studied different simple ways to exploit this concept. The material is quite big so I packed that to the e-learning course. Feel free to check this out at <https://www.udemy.com/keep-your-secrets-under-control/>
 
