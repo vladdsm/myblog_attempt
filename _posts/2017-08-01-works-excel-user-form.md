@@ -1,9 +1,8 @@
 ---
-priority: 0.6
 title: Save Your Time with Excel User Form
 excerpt: Simple way to collect data with simple tool
+priority: 0.6
 categories: works
-icon: industry
 author: vladdsm
 background-image: works-sample.png
 tags:
