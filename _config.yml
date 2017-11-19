@@ -18,7 +18,7 @@ owner:
   email: vz.home.experiments@gmail.com
   url: https://vladdsm.github.io/teachingblog
 first_published: 2017 # if migrating another site, the year of your first publish
-baseurl: "/blog /myblog_attempt" # the subpath of your site, e.g. 
+baseurl: "/myblog_attempt" # the subpath of your site, e.g. /blog 
 url: "https://vladdsm.github.io/myblog_attempt" # the base hostname & protocol for your site
 
 # on landing page
