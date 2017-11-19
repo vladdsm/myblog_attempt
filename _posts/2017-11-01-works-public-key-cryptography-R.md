@@ -4,7 +4,7 @@ title: Keep your Secrets under Control
 excerpt: Using Public Key Cryptography in R Statistical Software
 author: vladdsm
 categories: works
-background-image: crypto.jpg
+background-image: Course_1387910_Revision_0_Designer_Sofía.png
 tags:
   - openSSL
   - tidyverse
