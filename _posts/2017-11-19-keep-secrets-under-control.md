@@ -3,7 +3,6 @@ title: Keep Secrets Under Control
 excerpt: Using Public Key Cryptography in R
 categories:
   - topics
-  - my tipic group
 author: vladdsm
 tags:
  - secret
