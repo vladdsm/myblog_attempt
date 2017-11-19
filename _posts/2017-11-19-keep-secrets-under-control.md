@@ -2,9 +2,10 @@
 priority: 0.6
 title: Keep Secrets Under Control
 excerpt: Using Public Key Cryptography in R
-author: vladdsm
 categories:
   - topics
+  - my tipic group
+author: vladdsm
 tags:
  - secret
  - tidyverse
