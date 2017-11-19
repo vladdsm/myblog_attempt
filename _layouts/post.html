@@ -5,7 +5,7 @@ layout: default
     <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">{%
       unless site.navlinks == 'none'
 %}{%    if page.categories contains 'works'
-%}{%      assign idxperma = '/myblog_attempt/works/'
+%}{%      assign idxperma = '/works/'
 %}{%      assign idxtitle = 'Works Index'
 %}{%      assign idxbutton = 'Index'
 %}{%      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
