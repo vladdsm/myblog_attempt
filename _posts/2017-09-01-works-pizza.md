@@ -4,7 +4,7 @@ title: Pizza cooking at Home. Easy!
 excerpt: Just filmed how I do pizza on Sundays...
 categories: works
 author: vladdsm
-background-image: IMG_9024.JPG
+background-image: pizza.JPG
 tags:
   - Pizza
   - Lean
