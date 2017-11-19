@@ -4,7 +4,7 @@ title: Identify Problems with Artificial Intelligence - Case Study
 excerpt: Learn to use Un-supervised Machine Learning to identify Anomalies
 author: vladdsm
 categories: works
-background-image: works-sample.png
+background-image: predict.png
 tags:
   - kmeans
   - industry 4.0
