@@ -11,7 +11,7 @@ layout: default
 %}{%      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
 %}{%    endif
 %}{%    if page.categories.first == 'topics' and page.categories.last != 'topics'
-%}{%      assign idxperma = page.categories | join: '/' | prepend: '/' | append: '/'
+%}{%      assign idxperma = page.categories | join: '/' | prepend: '/myblog_attempt/' | append: '/'
 %}{%      assign idxtitle = 'Start page'
 %}{%      assign idxbutton = 'Start'
 %}{%      assign sorted_list = site.empty_array
