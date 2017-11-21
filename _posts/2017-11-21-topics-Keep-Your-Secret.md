@@ -5,6 +5,12 @@ categories:
   - topics
 date: 2017-11-21
 author: vladdsm
+background-image: Course_1387910_Revision_0_Designer_Sofía.png
+tags:
+  - openSSL
+  - tidyverse
+  - Public Key Cryptography
+  - Version Control
 ---
 
 
