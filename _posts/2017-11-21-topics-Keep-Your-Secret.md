@@ -75,7 +75,7 @@ read_key("my_key.pem",password = "") %>% str()
     ##   ..$ dq:Class 'bignum'  raw [1:132] 00 e6 8b d8 ...
     ##   ..$ qi:Class 'bignum'  raw [1:132] 00 db 2e 93 ...
 
-You can already notice object ***p**u**b**k**e**y* \* \**w**h**i**c**h**h**a**s**a* \* \*data** elements that are exactly the same as elements of the data elements of the **private key**
+You can already notice object **pubkey** **data** elements that are exactly the same as elements of the data elements of the **private key**
 
 **Takeaway \#1** : `Private Key` contains `Public Key`
 
