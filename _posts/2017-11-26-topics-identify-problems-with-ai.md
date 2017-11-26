@@ -6,7 +6,7 @@ categories:
 date: 2017-11-26 16:18
 ---
 
-## ---------> DRAFT <------------
+## DRAFT 
 
 ## Summary
 
