@@ -6,6 +6,8 @@ categories:
 date: 2017-11-26 16:18
 ---
 
+## ---------> DRAFT <------------
+
 ## Summary
 
 This little article describes the idea of creating a course dedicated to using AI to identify problems.
