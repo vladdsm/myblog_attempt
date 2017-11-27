@@ -51,10 +51,7 @@ We can use this model to automatically pass new observations through our model a
 
 ## Deep Learning Autoencoders
 
-What if we have no other option but to monitor change. Suppose we have serviced our equipment. Important process parameters of this equipment can be collected and used to (sorry for the long definition) Build a Deep Neural Network model using CPUs Builds a feed-forward multilayer artificial neural network on an H2OFrame. We will train this model on our *perfect* example. The model will learn patterns in this dataset. The image below will show what the actual data may look like and how the 'AI' would see it.
-
-[What AI will look at](https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/train.png)
-[What AI will 'see'](https://github.com/vzhomeexperiments/detect-anomaly/blob/Lecture25-DeepLearning/h2o_datasets/predict.png)
+What if we have no other option but to monitor change. Suppose we have serviced our equipment. Important process parameters of this equipment can be collected and used to (sorry for the long definition) Build a Deep Neural Network model using CPUs Builds a feed-forward multilayer artificial neural network on an H2OFrame. We will train this model on our *perfect* example. The model will learn patterns in this [dataset](https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/train.png). The image below will show what the actual data may look like and [how the 'AI' would see it](https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/predict.png).
 
 Think about it as yourself trying to memorise the landscape on the picture for a few seconds. Then you try to make the drawing on paper using your memory. Similar, right?
 
