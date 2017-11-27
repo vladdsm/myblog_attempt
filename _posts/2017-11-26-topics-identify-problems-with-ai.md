@@ -3,6 +3,7 @@ title: Identify Problems with Artificial Intelligence
 excerpt: Bring your Complex Problem Solving Skills to a new level
 categories: 
  - topics
+tags:
  - featured
  - industry
  - artificial intelligence
