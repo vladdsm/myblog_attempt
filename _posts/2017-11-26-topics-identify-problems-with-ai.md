@@ -72,7 +72,7 @@ We will run our process further and sooner or later it will start to deviate. Bu
 
 These simple ideas were impemented in the course that describes the entire process in a very detail and even provide you a tool to deploy this anomaly detection technique in a real production environment. 
 
-p.s. if you were so kind to read up to the end, get the discounted [coupon](https://www.udemy.com/identify-problems-with-ai-case-study/?couponCode=AI-DETECT-PROBLEM) for this course for a special symbolic price of 10USD. Offer will be valid until 2017-12-09
+p.s. if you were so kind to read up to the end, get the discounted [coupon](https://www.udemy.com/identify-problems-with-ai-case-study/?couponCode=AI-DETECT-PROBLEM) for this course for a special symbolic price. Offer will be valid until 2017-12-09
 
 ## Final thanks
 
