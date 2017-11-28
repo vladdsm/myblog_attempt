@@ -14,10 +14,6 @@ tags:
   - Anomaly Detection
 ---
 
-
-
-## DRAFT 
-
 ## Summary
 
 This little article [~7 min read] describes the idea of using Artificial Intelligence to identify problems. Problems in manufacturing where you have a lot of time-series data that are coming from multiple machines or processes. Article should give you insights on how to transform basic time-series data into the signal to alert human on potential problems.
