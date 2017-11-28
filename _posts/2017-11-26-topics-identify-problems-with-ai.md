@@ -50,15 +50,13 @@ Starting from the second hint about *Comparing objects* that should behave simil
 
 This will help human to interpret the result and ultimately highlight the problem.
 
+We can use this model to automatically pass new observations through our model and classify them again and again...
 
-
-We can use this model to automatically pass new observations through our model and classify them again and again. Comparing objects may be tricky however. What if there is very little difference between them? Algorithm will still to split data into classes
-
-... however we have another option...
+Comparing objects may be tricky however. What if there is very little difference between them? Algorithm will still to split data into classes... however we have another powerfull option...
 
 ## Deep Learning Autoencoders
 
-What if we have no other option but to monitor change. Suppose we have serviced our equipment. Important process parameters of this equipment can be collected and used to (sorry for the long definition) Build a Deep Neural Network model using CPUs Builds a feed-forward multilayer artificial neural network on an H2OFrame. We will train this model on our *perfect* example. The model will learn patterns in this dataset below
+What if we have no other option but to monitor change. Suppose we have serviced our equipment bringing it to the perfect state. Important process parameters of this equipment right after service can be collected and used to (sorry for the long definition) *Build a Deep Neural Network model using CPUs Builds a feed-forward multilayer artificial neural network on an H2OFrame*. We will train this model on our *perfect state* data example. For example the model [AI] can learn patterns in this **ECG** dataset. For the better clarify 3D image was generated using `plotly` library in `R`: 
 
 <img src="https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/train.png" >
 
@@ -68,13 +66,17 @@ This is how the 'AI' would see it:
 
 *Think about it as yourself trying to memorise the landscape on the picture for a few seconds. Then you try to make the drawing on paper using your memory. You will capture some details if they are simple, overal idea, but probably will have a difficult time to remember everything, right?*
 
-We will run our process further and sooner or later it will start to deviate. But, our process data will be continously 'passed' through our model. As soon as the error coming from the model will exceed given threshold - we will immediately get the alert!
+We will run our process further and sooner or later it will start to deviate. But, our process data will be continously 'passed' through our model. As soon as the error coming from the model will exceed given threshold - we will immediately get the alert! This is how *MSE* metric would look like as soon as you pass data with *Anomaly*:
+
+<img src = "https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/MSE.png">
 
 *Suppose you just seen a landscape with a forest and a river and memorised it in your memory. Now you get another landscape picture with a forest and a **frozen** river. Boom - you will notice that something is different right?*
 
 ## Conclusion
 
-These simple ideas were impemented in the course on the time-series data coming from several objects that should behave similarly.
+These simple ideas were impemented in the course that describes the entire process in a very detail and even provide you a tool to deploy this anomaly detection technique in a real production environment. 
+
+p.s. if you were so kind to read up to the end, get the discounted [coupon](https://www.udemy.com/identify-problems-with-ai-case-study/?couponCode=AI-DETECT-PROBLEM) for this course for a special symbolic price of 10USD. Offer will be valid until 2017-12-09
 
 ## Final thanks
 
