@@ -53,8 +53,11 @@ We can use this model to automatically pass new observations through our model a
 ## Deep Learning Autoencoders
 
 What if we have no other option but to monitor change. Suppose we have serviced our equipment. Important process parameters of this equipment can be collected and used to (sorry for the long definition) Build a Deep Neural Network model using CPUs Builds a feed-forward multilayer artificial neural network on an H2OFrame. We will train this model on our *perfect* example. The model will learn patterns in this dataset below
+
 <img src="https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/train.png" >
+
 This is how the 'AI' would see it:
+
 <img src ="https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/predict.png" >
 
 *Think about it as yourself trying to memorise the landscape on the picture for a few seconds. Then you try to make the drawing on paper using your memory. You will capture some details if they are simple, overal idea, but probably will have a difficult time to remember everything, right?*
