@@ -42,7 +42,7 @@ Obvously, the next idea was to see what strategies can we exploit to *augment pr
 
 Starting from the second hint about *Comparing objects* that should behave similarly. We can use pattern recognition techniques. Using popular algorithm **kmeans** we can arrange our data in the way that our observations from several similar processes or machines are splitted into classes. The fact that this data splits into classes (*normality* and *anormality*) can already highlight the problem. For example in this image we can see group of observations that have been classfied differently versus the majority of other observations. 
 
-<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/plotarbitrary.png">
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/plotarbitrary.png" alt="speakom"   />
 
 This will help human to interpret the result and ultimately highlight the problem.
 
