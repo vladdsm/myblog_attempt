@@ -7,6 +7,7 @@ date: 2017-11-26
 author: vladdsm
 background-image: predict.png
 tags:
+  - featured
   - h2o
   - kmeans
   - Deep Learning
