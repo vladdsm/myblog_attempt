@@ -50,23 +50,25 @@ Comparing objects may be tricky. What if there is very little difference between
 
 ## Deep Learning Autoencoders
 
-What if we have no other option but to monitor change. Suppose we have serviced our equipment bringing it to the perfect state. Important process parameters of this equipment can be collected right after service. Data can be used to ... (sorry for the long definition) *Build a Deep Neural Network model using CPUs Builds a feed-forward multilayer artificial neural network on an H2OFrame*. We will train this model on our *perfect state* data example. For example the model [AI] can learn patterns in this **ECG** dataset. For the better clarify 3D image was generated using `plotly` library in `R`: 
+What if we have no other option but to monitor change. Suppose we have serviced our equipment bringing it to the perfect state. Important process parameters of this equipment can be collected right after service. Data can be used to ... (sorry for the long definition) *Build a Deep Neural Network model using CPUs Builds a feed-forward multilayer artificial neural network on an H2OFrame*. We will train this model on our *perfect state* data example. For example the model [AI] can learn patterns in this **ECG** dataset. For the better clarify 3D image of the dataset will be generated using `plotly` library in `R`: 
 
 <img src="https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/train.png" >
 
-This is how the 'AI' would see new dataset where three new rows have an anomaly:
+Once the model was trained on this dataset we will test it on new dataset where 3 anomalous records were added [highlighted by red arrow]
 
-<img src ="https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/predict.png" >
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/test.png" >
 
-You see that there are many small imperfections on re-created dataset: *Think about it as yourself trying to memorise the landscape on the picture for a few seconds. Then you try to make the drawing on paper using your memory. You will capture some details if they are simple, overal idea, but probably will have a difficult time to remember everything, right?* The last three rows will in fact generate more responce. The Mean Square Error coming from the model will exceed given threshold - we will immediately get the alert! This is how *MSE* metric would look like as soon as you pass data with *Anomaly*:
+This is how the 'AI would see' new dataset where three new rows have an anomaly:
+
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/predict.png" >
+
+The last three rows will in fact generate different responce. The Mean Square Error coming from the model will exceed given threshold - we will immediately get the alert! This is how *MSE* metric would look like as soon as you pass data with *Anomaly*:
 
 <img src = "https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/MSE.png">
 
-*Suppose you just seen a landscape with a forest and a river and memorised it in your memory. Now you get another landscape picture with a forest and a **frozen** river. Boom - you will notice that something is different right?*
-
 ## Conclusion
 
-These simple ideas were impemented in the course that describes the entire process in a very detail and even provide you a tool to deploy this anomaly detection technique in a real production environment. 
+These simple ideas were impemented in the course that describes the entire process in a very detail and even provide you a working application **ShinyApp** to deploy this anomaly detection technique in a real production environment. 
 
 p.s. if you were so kind to read up to the end, get the discounted [coupon](https://www.udemy.com/identify-problems-with-ai-case-study/?couponCode=AI-DETECT-PROBLEM) for this course for a special symbolic price. Offer will be valid until 2017-12-09
 
