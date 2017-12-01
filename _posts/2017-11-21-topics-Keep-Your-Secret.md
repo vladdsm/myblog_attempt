@@ -34,7 +34,7 @@ library(tidyverse)
 
 ### Private Key
 
-Private Key is generated from a large random number. Below code in `R` will generate the `Private Key` and write it as a file persistently. You can specify how 'big' your key should be with a 'bits' argument. Password argument is optional, but highly recommended and it is required to 'unlock' private key when you use it from file:
+Private Key is generated from a large random number. Below code in `R` will generate the `Private Key` and write it as a file persistently. You can specify how 'big' your key should be with a 'bits' argument. `Password` argument is optional, but highly recommended and it is required to 'unlock' private key number when you use it from file:
 
 ``` r
 # generate your private key (NB: make sure to do back up copy!!!)
@@ -87,11 +87,11 @@ read_key(file = "my_key.pem", password = "") %>%
   `[[`("pubkey") %>% write_pem("my_key.pub")
 ```
 
-Here you go! Check out the file **my\_key.pub**. You can send it to your friends that can encrypt information that you and only you can read... (if you have corresponding private key of course)
+Here you go! Check out the file **my\_key.pub**. You can send it to your friends that can encrypt information that you and only you can read... (if you have corresponding private key of course!)
 
 ### Encrypt with Public Key
 
-Just as a simple example I would encrypt text string "Hello World" and save this result as a file:
+Just as a simple example I would encrypt text "Hello World" and save this result as a file named `"message.enc"` :
 
 ``` r
 ## Encrypt with PUBLIC key (e.g. send this code to collaborator)
@@ -109,13 +109,13 @@ If you notice, I must 'serialize' my message before I can encrypt:
 ``` r
 ## Encrypt with PUBLIC key (e.g. send this code to collaborator)
 "Hello World" %>% 
-  # serialize the object
+  # serialize the object and output only 10 elements
   serialize(connection = NULL) %>% head(10)
 ```
 
     ##  [1] 58 0a 00 00 00 02 00 03 02 05
 
-This vector of numbers can be encrypt with function **encrypt\_envelope()** passing as an argument your file with a **public key**
+This vector of numbers can be encrypted with function **encrypt\_envelope()** passing as an argument your file with a **public key**
 
 ``` r
 "Hello World" %>% 
@@ -130,7 +130,7 @@ This vector of numbers can be encrypt with function **encrypt\_envelope()** pass
     ##  $ session: raw [1:263] 03 a3 a3 e2 ...
     ##  $ data   : raw [1:48] 48 27 53 0f ...
 
-You always get a list of raw vectors as an R object. We can store this object using **read\_rds()** function
+You always get a list of raw vectors as an R object. We can store this object using **read\_rds()** function and store it persistently in the file. This file contains our encrypted secret "_____ ______" 
 
 ### Read it back... decrypt
 
@@ -184,6 +184,6 @@ Code provided above is just for demostration purposes. There is a risk of loosin
 postscriptum
 ------------
 
-beyong the theory I have also studied different simple ways to exploit this concept. The material is quite big so I packed that to the e-learning course. Feel free to [check this out](https://www.udemy.com/keep-your-secrets-under-control/?couponCode=KEEP-SECRET-10)!
+beyong the theory I have also studied different simple ways to exploit this concept while doing everything possible to manage risks. The material is packed that to the e-learning course that will give you ready to use examples to exploit and use `Public Key Cryptography`. Remember that this course is created by *non-programmer* for *non-programmers*. Feel free to [check this out and benefit now!](https://www.udemy.com/keep-your-secrets-under-control/?couponCode=KEEP-SECRET-10)
 
 ![course\_image](images/Course_1387910_Revision_0_Designer_Sofía.png)
