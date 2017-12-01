@@ -25,21 +25,21 @@ Cryptography is more fun with R!
 
  **Takeaway \#1** : No transparency <-> No trust in society! 
 
-At the same time **Cryptography** is really something that everyone need to know and use. *Simple password protection*, *food-chain traceability* or *Electronic Voting Systems* is something more people can benefit from. 
+At the same time **Cryptography** is really something that everyone need to know and use. *passwords protection*, *food-chain traceability* or *Electronic Voting Systems* is something more people can benefit from. 
 
-## Good news is that there is that **Public Key Cryptography** is easily available with **R Statistical Software**
+## Good news is that **Public Key Cryptography** is easily available with **R Statistical Software**
 
-This little article [7min read] aimes to illustrate that in just **10 lines of code**... More over you can easily see what is happening to learn, trust and finally benefit from this fascinating technology!
+This little article [7min read] aimes to illustrate that you just need to know **10 lines of code** to do it yourself... More over you can easily see what is happening. You can practice, learn and finally benefit from this fascinating technology!
 
 Public Key Cryptography and R Statistical Software
 -----------------------
 
-**Public Key Cryptography** is a type of Cryptographic system that uses set's of keys. They are known to be Public and Private. These keys are just numbers that can be used in combination with a fixed algorithm to Encrypt or Lock information and to Decrypt or Unlock information. We are not programmers to dig deep into algorithms however thanks to **R** we can look into the process itself. 
+**Public Key Cryptography** is a type of Cryptographic system that uses set's of keys. They are known to be Public and Private. These keys are just numbers that can be used in combination with a fixed algorithm to Encrypt (Lock information) and to Decrypt (Unlock information). We are not programmers to dig deep into algorithms and math behind however thanks to **R** we can now look into the process itself 
 
-Encrypting popular phrase **'Hello World'** with `R`
+Encrypting popular phrase **'Hello World'**
 ----------------------
 
-I will be using **R** packages **openssl** and **tidyverse** packages. Each package contains ready to use *Functions* that aimed to perform some manipulation with data. In case *function* generates an output we can use the `pipe|%>%` operator to pass this result to the next function. Packages can be downloaded from the internet for free and installed on your computer. Finally we are loading them for the further use
+I will be using **R** packages **openssl** and **tidyverse** packages. Each package contains ready to use *Functions* that aimed to perform some manipulation with data. In case *function* generates an output we can use the `pipe|%>%` operator to pass this result to the next function. Packages can be downloaded from the internet for free and installed on your computer. For example function `install.packages("openssl")` will do the job. In particular, package **openssl** contains functions that allow us to use cryptography using `R Statistical Software`. Let's finally start to load these packages
 
 ``` r
 # Loading packages
@@ -49,21 +49,26 @@ library(tidyverse)
 
 ### Private Key
 
-Private Key is generated from a large random number. Below 2 lines of code will generate the `Private Key` and write it as a file persistently. You can specify how 'long' your key should be. Just try to change the 'bits' number to see what happens. Another function will write the resulting private key to the file. We can use set a `password` to lock this file. This is optional, but highly recommended as it is required to 'unlock' private key number when you use it from file:
+Private Key is generated from a large random number. Two lines of code will generate the `Private Key` and write it as a file persistently. You can specify how 'long' your key should be using `bits` argument. Another function will write the resulting private key to the file. We can use set a `password` to lock this file. This is optional, but highly recommended as it is required to 'unlock' private key number when you use it from file:
 
 ``` r
+### IMPORTANT: Only run this code once or you can overwrite your private key!!! IMPORTANT 
 # generate your private key (NB: make sure to do back up copy!!!)
 rsa_keygen(bits = 2099) %>% 
-  write_pem(path = "my_key.pem", password = "")
+  write_pem(path = "my_key.pem", password = "yoursuperstrongpassword")
 ```
+
+Notice the note above that the key is really random hence everytime you run this code will generate a different private key.
+
+**Takeaway \#2** : Generate your `Private Key` and do not overwrite existing one
 
 ## **You must make sure you have a valid copy of the Private key at any time.**
 
-Thanks to `R` we can read this file back and see how this key is composed. Notice we use `str()` or structure function to do so:
+Thanks to `R` we can read this file back and see how this key is composed. Notice we use structure `str()` function to do so:
 
 ``` r
 # read private key from file and output structure of the object
-read_key("my_key.pem",password = "") %>% str()
+read_key("my_key.pem",password = "yoursuperstrongpassword") %>% str()
 ```
 
     ## List of 4
@@ -89,20 +94,24 @@ read_key("my_key.pem",password = "") %>% str()
 
 Now try to spot that elements **e** and **n** are repeated. In fact the small portion of the numbers is duplicated and will be used in the **public key**
 
-**Takeaway \#2** : `Private Key` contains `Public Key`
+**Takeaway \#3** : `Private Key` contains `Public Key`
 
 ### Public Key
+
+**Note:** if you will always Encrypt information yourself - you can use omit this step and always use Private Key
 
 Public Key is consisting of a list of elements. Look above code output to have a glimpse. There we have a unique `metadata` of the key as well as a 'functional' part under the element `data`. These elements are used by the algorythm to **Encrypt** information. All we need now is to extract this element and store it to the file! We do so by reading the private key from the file, extracting public key and writing it to the separate file named `my_key.pub`. 
 
 ``` r
 # generate your public key (NB: optional. Use Private Key to encrypt/decrypt)
-read_key(file = "my_key.pem", password = "") %>% 
+read_key(file = "my_key.pem", password = "yoursuperstrongpassword") %>% 
   # extract element of the list and write to file
   `[[`("pubkey") %>% write_pem("my_key.pub")
 ```
 
-Here you go! Check out the file **my\_key.pub**. You can send it to your friends and they can encrypt information that you and only you can read... (if you have _*corresponding*_ private key of course!). But now we have our `keys`, now what?
+Here you go! Check out the file **my\_key.pub**. You can send it to your friends and they can encrypt information that you and only you can read... (if you have _*corresponding*_ private key of course!). 
+
+But now we have our `keys`, now what?
 
 ### Encrypt with Public Key
 
@@ -119,12 +128,12 @@ Just as a simple example let's encrypt text "Hello World" and save this result a
   write_rds("message.enc")
 ```
 
-Boom! It's already done, secret is encrypted however let's use `R` to see how it was possible...
+Boom! It's already done, secret is encrypted however let's see how it was possible...
 
 Notice we were using function `serialize()` to transfer our data object to simple numbers. Lets see what exactly numbers...
 
 ``` r
-## Encrypt with PUBLIC key (e.g. send this code to collaborator)
+## Encrypt with PUBLIC key
 "Hello World" %>% 
   # serialize the object and output only 10 elements
   serialize(connection = NULL) %>% head(10)
@@ -162,7 +171,7 @@ decrypt_envelope(data = secret_encrypted$data,
                  iv = secret_encrypted$iv,
                  session = secret_encrypted$session,
                  key = "my_key.pem",
-                 password = "") %>% 
+                 password = "yoursuperstrongpassword") %>% 
   # getting back original object in a form of the data frame
   unserialize() 
 ```
@@ -175,7 +184,6 @@ rm(secret_encrypted)
 ```
 
 Finally we have our "Hello World" text back!
-
 
 Conclusion
 ----------
@@ -190,18 +198,14 @@ Let's make some statistics and conclude this article:
 | ---------- | ------------------------ |
 | Total      | 10                       |
 
-Of course `R` can not make micacles as we still don't know deep internals of encryption algorithms. However we now have much better understanding of it. More importantly we can use it on our own with just 10 lines of code.
+Of course `R` can not make micacles as we still don't know deep internals of encryption algorithms. However we now have much better understanding of it. More importantly we can now use it on our own with just 10 lines of code.
 
 RISKS and DISCLAMER
 -----
 
-**Cryptography** still should be used with caution. If you forget your email account password you may still restore it, but if you encrypt important business information and can not decrypt it... or if someone has got a copy of your private key... Unforgunate risks does exists so you may need to spend some time to practice your way using Public Key Cryptography on **Dummy** data...
-
-DISCLAMER
-------------
-Code provided above is just for demostration purposes. There is a risk of loosing information. If you are using this code you do it on your own risk.
+**Cryptography** still should be used with caution. If you forget your email account password you may still restore it, but if you encrypt important business information and can not decrypt it... For that you may need to spend some time to practice Public Key Cryptography on **Dummy** data... also pay attention to that this `code` provided above is just for demostration purposes. If you are using this code without full understanding you do it on your own risk. 
 
 postscriptum
 ------------
 
-beyong the theory I have also studied different simple ways to exploit this concept while doing everything possible to manage risks. The material is packed that to the e-learning course that will give you ready to use examples to exploit and use `Public Key Cryptography`. Remember that this course is created by *non-programmer* for *non-programmers*. Feel free to [check this out and benefit now!](https://www.udemy.com/keep-your-secrets-under-control/?couponCode=KEEP-SECRET-10)
+Beyong the theory I have also studied different simple ways to exploit this concept while doing everything possible to minimize risks. The material is packed to the comprehensive step-by-step e-learning course. You will get ready to use examples to exploit and use `Public Key Cryptography`. Remember that this course is created by *non-programmer* for *non-programmers*. You will be able to replicate examples on your own and hopefully start trust and benefit from Cryptography. Feel free to [check this out and benefit now!](https://www.udemy.com/keep-your-secrets-under-control/?couponCode=KEEP-SECRET-10)
