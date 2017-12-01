@@ -1,6 +1,6 @@
 ---
 title: Cryptography is more fun with R!
-excerpt: Learn and use Public Key Cryptography with R Statistical Software
+excerpt: Learn and use Public Key Cryptography with R Statistical Software [7 min read]
 categories:
   - topics
 date: 2017-11-21
@@ -14,10 +14,18 @@ tags:
   - Version Control
 ---
 
-Cryptography and Society
+Bad friends: Cryptography and Society
 --------------
 
-**Cryptography** is usually percieved as something not for everybody. Majority of the population are either not using it because it's too complex or they are afraid that *someone have a master key* and it's something yet to avoid. At the same time **Cryptography** is really something that EVERYONE need to know and use. Starting from the simple password protection going to the food chain traceability or digital democracy. Of course there are programs designed to let everybody to use **Cryptography** however they are *Locked* for the most of us! Even if it's **Open-Source** one have a hard time to understand what is happening inside the program. Hence -> no trust for the users! 
+**Cryptography** is usually percieved as something not for everybody in our society. Majority of the population does not trust it. Probably due to these three things:
+
+* *Conspiracy stories* - "...is there are *master key*?"
+* Not transparent - "... what is happenning in this software?"
+* Too complex for me - "... I need to be a programmer or mathematician to understand it..."
+
+At the same time **Cryptography** is really something that EVERYONE need to know and use. *Simple password protection*, food-chain traceability or *Electronic Voting* moving to digital democracy. 
+
+ **Takeaway \#1** : No transparency <-> No trust in society! 
 
 I had exactly same feeling until I found out that **Public Key Cryptography** is easily available with **R Statistical Software**! In fact, all you need is to understand is how to use just **10 lines of code**... More over you can easily see what is happening and finaly trust and benefit from this fascinating technology!
 
@@ -130,7 +138,7 @@ This vector of numbers can be encrypted with function **encrypt\_envelope()** pa
     ##  $ session: raw [1:263] 03 a3 a3 e2 ...
     ##  $ data   : raw [1:48] 48 27 53 0f ...
 
-You always get a list of raw vectors as an R object. We can store this object using **read\_rds()** function and store it persistently in the file. This file contains our encrypted secret "_____ ______" 
+You always get a list of raw vectors as an R object. We can store this object using **read\_rds()** function and store it persistently in the file. This file contains our encrypted secret 
 
 ### Read it back... decrypt
 
