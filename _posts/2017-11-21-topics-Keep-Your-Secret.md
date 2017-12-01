@@ -39,7 +39,7 @@ Public Key Cryptography and R Statistical Software
 Encrypting popular phrase **'Hello World'**
 ----------------------
 
-I will be using **R** packages **openssl** and **tidyverse** packages. Each package contains ready to use *Functions* that aimed to perform some manipulation with data. In case *function* generates an output we can use the `pipe|%>%` operator to pass this result to the next function. Packages can be downloaded from the internet for free and installed on your computer. For example function `install.packages("openssl")` will do the job. In particular, package **openssl** contains functions that allow us to use cryptography using `R Statistical Software`. Let's finally start to load these packages
+I will be using **R** packages **openssl** and **tidyverse**. Each package contains ready to use *Functions* that aimed to perform some manipulation with data. In case *function* generates an output we can use the `pipe|%>%` operator to pass this result to the next function. Packages can be downloaded from the CRAN repository for free and automatically installed on your computer. For example function `install.packages("openssl")` will download and install the package we need. This package is a key enabler to use cryptography using `R Statistical Software`. Let's finally start see how it works:
 
 ``` r
 # Loading packages
