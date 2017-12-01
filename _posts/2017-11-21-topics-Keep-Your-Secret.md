@@ -1,51 +1,48 @@
 ---
-title: Keep Secrets Under Control
-excerpt: Using Public Key Cryptography in R
+title: Cryptography is more fun with R!
+excerpt: Learn and use Public Key Cryptography with R Statistical Software
 categories:
   - topics
 date: 2017-11-21
 author: vladdsm
 background-image: Course_1387910_Revision_0_Designer_Sofía.png
 tags:
-  - openSSL
+  - non-programmer
+  - openssl
   - tidyverse
   - Public Key Cryptography
   - Version Control
 ---
 
-
-
-Why to bother?
+Cryptography and Society
 --------------
 
-Have your heard this term 'password chaos'? This is when you exposed to necessity to keep creating stronger passwords, not re-using them across resourses, replacing them every now and then and so on. The only solution seems to be using special programs to encrypt/decrypt your passwords. Of course there are programs designed to do this, they may even be already present by default in your computer. If not it would be necessary to add one extra program, paid or free.
+**Cryptography** is usually percieved as something not for everybody. Majority of the population are either not using it because it's too complex or they are afraid that *someone have a master key* and it's something yet to avoid. At the same time **Cryptography** is really something that EVERYONE need to know and use. Starting from the simple password protection going to the food chain traceability or digital democracy. Of course there are programs designed to let everybody to use **Cryptography** however they are *Locked* for the most of us! Even if it's **Open-Source** one have a hard time to understand what is happening inside the program. Hence -> no trust for the users! 
 
-I had a different idea. Why can't we use **Public Key Cryptography** to enrypt simple text or data tables with *R* Statistical Software? Indeed, it appeared to be extremely easy. All you need is **10 lines of code**... Just read the text below to get a feel
+I had exactly same feeling until I found out that **Public Key Cryptography** is easily available with **R Statistical Software**! In fact, all you need is to understand is how to use just **10 lines of code**... More over you can easily see what is happening and finaly trust and benefit from this fascinating technology!
 
-Cryptography
-------------
-
-Going to internals of **Cryptography** is something really not for everybody. It smells complex math and must be a lot of code behind... It's also something related to conspiracy stories, spy scandals, NSA and so on. But it's also exciting new technologies like blockchain, new businesses, new opportunity! Sometimes people are even using this technology without even noticing it... think about end to end encryption on your **What's Up** messenger...
-
-Public Key Cryptography
+Public Key Cryptography and R Statistical Software
 -----------------------
 
-**Public Key Cryptography** is a type of Cryptographic system that uses set's of keys. They are known to be Public and Private. These keys in combination with a fixed algorithm are used to Encrypt or Lock information and to Decrypt or Unlock information. Let's have a quick summary of what are those and how are they made. In order to make things really interesting lets look into the process itself by encrypting and decrypting a popular phrase **'Hello World'**. I will be using **R** package **openssl** to demonstrate that. For the sake of make things 'easy' and not generating intermediate objects I will also load **tidyverse** package to use the `pipe|%>%`
+**Public Key Cryptography** is a type of Cryptographic system that uses set's of keys. They are known to be Public and Private. These keys are just numbers that can be used in combination with a fixed algorithm to Encrypt or Lock information and to Decrypt or Unlock information. Let's have a quick summary of what are those and how are they made. In order to make things really interesting lets look into the process itself by encrypting and decrypting a popular phrase **'Hello World'**. I will be using **R** packages **openssl** and **tidyverse** packages. Each package contains ready to use *Functions* that aimed to perform some manipulation with data. In case *function* generates an output we can use the `pipe|%>%` operator to pass this result to the next function
 
 ``` r
-library(openssl)
+# Loading packages
+library(openssl) 
 library(tidyverse)
 ```
 
 ### Private Key
 
-Private Key is generated from a large random number. Below code in R will generate the Private Key and write it as a file persistently. You can specify how 'big' your key should be with a 'bits' argument. Password argument is optional, but highly recommended and it is required to 'unlock' private key when you use it from file:
+Private Key is generated from a large random number. Below code in `R` will generate the `Private Key` and write it as a file persistently. You can specify how 'big' your key should be with a 'bits' argument. Password argument is optional, but highly recommended and it is required to 'unlock' private key when you use it from file:
 
 ``` r
 # generate your private key (NB: make sure to do back up copy!!!)
 rsa_keygen(bits = 2099) %>% 
   write_pem(path = "my_key.pem", password = "")
 ```
+
+## **You must make sure you have a valid copy of the Private key at any time.**
 
 Just for the sake to understand what is that 'animal' we can read it back and see how this key is composed:
 
@@ -180,9 +177,13 @@ Let's make some statistics:
 
 With just 10 lines of code you can create your keys, store them to the file, encrypt and decrypt your information!
 
+DISCLAMER
+------------
+Code provided above is just for demostration purposes. There is a risk of loosing information. If you are using this code you do it on your own risk.
+
 postscriptum
 ------------
 
-beyong the theory I have also studied different simple ways to exploit this concept. The material is quite big so I packed that to the e-learning course. Feel free to check this out at <https://www.udemy.com/keep-your-secrets-under-control/>
+beyong the theory I have also studied different simple ways to exploit this concept. The material is quite big so I packed that to the e-learning course. Feel free to [check this out](https://www.udemy.com/keep-your-secrets-under-control/?couponCode=KEEP-SECRET-10)!
 
 ![course\_image](images/Course_1387910_Revision_0_Designer_Sofía.png)
