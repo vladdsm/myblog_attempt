@@ -185,5 +185,3 @@ postscriptum
 ------------
 
 beyong the theory I have also studied different simple ways to exploit this concept while doing everything possible to manage risks. The material is packed that to the e-learning course that will give you ready to use examples to exploit and use `Public Key Cryptography`. Remember that this course is created by *non-programmer* for *non-programmers*. Feel free to [check this out and benefit now!](https://www.udemy.com/keep-your-secrets-under-control/?couponCode=KEEP-SECRET-10)
-
-![course\_image](images/Course_1387910_Revision_0_Designer_Sofía.png)
