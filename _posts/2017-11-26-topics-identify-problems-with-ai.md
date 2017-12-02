@@ -66,14 +66,23 @@ The last three rows will in fact generate different responce. The Mean Square Er
 
 <img src = "https://raw.githubusercontent.com/vzhomeexperiments/detect-anomaly/Lecture25-DeepLearning/h2o_datasets/MSE.png">
 
+This concept is very powerful as it can help to build **Predictive Maintenance** dashboard solely from monitored parameter by monitoring *MSE* metric over time
+
 ## Conclusion
 
-These simple ideas were impemented in the course that describes the entire process in a very detail and even provide you a working application **ShinyApp** to deploy this anomaly detection technique in a real production environment. 
+Identifying problems automatically is probably a wish of every manufacturer. This article just described some ideas on using *Artificial intelligence* together with logical approach coming from *Problem Solving* in order to take an advantage of:
 
-p.s. if you were so kind to read up to the end, get the discounted [coupon](https://www.udemy.com/identify-problems-with-ai-case-study/?couponCode=AI-DETECT-PROBLEM) for this course for a special symbolic price. Offer will be valid until 2017-12-09
+- comparing similar objects that should behave similarly
+- monitoring object state over time
+
+## Postscriptum
+
+These simple ideas were impemented in the course that describes the entire process in a very detail and even provide you a working application **ShinyApp** to deploy this anomaly detection techniques or better understand the method. 
+
+ if you were so kind to read up to the end, get the discounted [coupon](https://www.udemy.com/identify-problems-with-ai-case-study/?couponCode=AI-DETECT-PROBLEM) for this course for a special symbolic price. Offer will be valid until 2017-12-09
 
 ## Final thanks
 
-Here I should say thanks for my family (and git*) to allowing me to spend few time to creating this course :)
+Here I should say thanks for my family (and git*) to allowing me to spend some time to creating this course :)
 
 _* git allowed me to create course on the go while travelling for work
