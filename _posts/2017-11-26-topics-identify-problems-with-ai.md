@@ -77,9 +77,7 @@ Identifying problems automatically is probably a wish of every manufacturer. Thi
 
 ## Postscriptum
 
-These simple ideas were impemented in the course that describes the entire process in a very detail and even provide you a working application **ShinyApp** to deploy this anomaly detection techniques or better understand the method. 
-
- if you were so kind to read up to the end, get the discounted [coupon](https://www.udemy.com/identify-problems-with-ai-case-study/?couponCode=AI-DETECT-PROBLEM) for this course for a special symbolic price. Offer will be valid until 2017-12-09
+These simple ideas were impemented in the course that describes the entire process in a very detail and even provide you a working application **ShinyApp** to deploy this anomaly detection techniques or better understand the method. Feel free to check it out inside the (**works**)[https://vladdsm.github.io/myblog_attempt/works/] section of this site!
 
 ## Final thanks
 
