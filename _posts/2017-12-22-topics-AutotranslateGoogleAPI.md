@@ -5,6 +5,7 @@ categories:
  - topics 
 date: 2017-12-22
 author: vladdsm
+background-image: translations.png
 tags:
   - translateVTT
   - Google Translate API
