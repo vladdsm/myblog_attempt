@@ -1,5 +1,5 @@
 ---
-priority: 0.7
+priority: 0.6
 title: Identify Problems with Artificial Intelligence - Case Study
 excerpt: Learn to use Un-supervised Machine Learning to identify Anomalies
 author: vladdsm
