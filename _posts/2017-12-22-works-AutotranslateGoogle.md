@@ -3,6 +3,7 @@ priority: 0.6
 title: Autotranslate closed captions VTT files
 excerpt: Learn and use Google Translator API with R Statistical Software
 author: vladdsm
+background-image: translate.googleapis.com-87c47a20-77f4-4d6b-a9c8-88e51b2a3282-1498783613864.png
 categories: works
 tags:
   - Google Translate API
