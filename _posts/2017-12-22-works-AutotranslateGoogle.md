@@ -24,4 +24,4 @@ Automate your translations with R and Google Translate API!
 - Automate translation to many languages at once
 - Estimate costs of translations
 
-Check out the course [here](https://www.udemy.com/automated-translation-google-translate-api/?couponCode=TRANSLATE-VTT-30) course is probably unique one where cloced captions are available in 11 different languages
+Check out the course [here](https://www.udemy.com/automated-translation-google-translate-api/?couponCode=TRANSLATE-VTT-30). Course is probably unique one where cloced captions are available in 11 different languages!
