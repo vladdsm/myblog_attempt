@@ -1,5 +1,5 @@
 ---
-title: Lazy Trading Part 2: Set up your Trading Strategy Robot
+title: Lazy Trading Part 2 Set up your Trading Strategy Robot
 excerpt: Learn Computer and Data Science through Algorithmic Trading
 date: 2018-01-18
 author: vladdsm
