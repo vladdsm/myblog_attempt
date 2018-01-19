@@ -14,3 +14,4 @@ tags:
   - MQL4
 ---
 
+Draft article for the first course
