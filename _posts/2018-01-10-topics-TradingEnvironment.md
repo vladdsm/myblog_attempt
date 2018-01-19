@@ -1,5 +1,5 @@
 ---
-title: Lazy Trading Part 1: Set up your Home Trading Environment
+title: Lazy Trading Part 1 Set up your Home Trading Environment
 excerpt: Learn Computer and Data Science through Algorithmic Trading
 date: 2018-01-10
 author: vladdsm
