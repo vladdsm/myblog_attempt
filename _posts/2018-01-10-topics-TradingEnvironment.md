@@ -16,9 +16,7 @@ tags:
 
 ## The big idea about Lazy Trading
 
-In this blog I would like to cover few ideas. I would like to cover what is the point of even to start looking at it. I would also express my personal opinion about it that it's non-productive and bad for society. Last but not least I would give my interpretation of how one still benefit from this phenomenon without hurting the society...
-
-Lastly I will want to actually bring the explanation of why I am personally looking on that and how I benefited from this topic without gaining or loosing money!
+In this blog I would like to cover few ideas. I would like to cover what is the point of even to start looking at Financial Trading. I would also express my personal opinion about it that it's non-productive and bad for society. Last but not least I would give my interpretation of how one still benefit from this phenomenon: One can trade and learning computer and data science... Lastly I will want to actually bring my way of doing Algorithmic Lazy Trading.
 
 By the way, **This is not a trading advice!** so just relax and have a fun reading for the next 5 minutes!
 
