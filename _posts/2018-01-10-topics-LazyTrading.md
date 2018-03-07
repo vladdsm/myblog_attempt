@@ -38,7 +38,7 @@ They believe that their winning expectancy will be dominating the loosing expect
 
 Typical situation: One person is risking 1 dollar, getting 99 dollars from the bank, instruct broker to buy or sell the asset, close the position after pre-defined price move, return 99 dollar, commission and get the profit or loss, repeat this many time during the day... 
 
-Now, think about it. What is produced? What is the added value? Not speaking about the taxes. Do you know that UK does not tax income generated from such trades? In a summary:
+Now, think about it. What is produced? What is the added value? Not speaking about the taxes. Do you know that UK does not tax income generated from such trades?
 
 ## Why it can give you value?
 
