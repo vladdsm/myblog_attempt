@@ -17,7 +17,7 @@ tags:
 
 In this blogpost [5 min read] I would like to explain the motivation behind the second course of the series. 
 
-This course will cover setting up your personal robust Trading Robot Template. At the end of this course you will have complete and ready to be used Trading System installed and active on your Home Computer. It will help you to:
+This course will cover setting up your personal Trading Robot Template. At the end of this course you will have complete and ready to be used Trading System installed and active on your Home Computer. It will help you to:
 
 * Programming environment
 * Setting up Version Control Project
@@ -53,9 +53,8 @@ This is all about control. How can you just switch on/off your trading robot fro
 
 ### How to further modify it
 
-The robot can and must be modified. You can experiment and try different things. I just explain you where. The way you will modify it will be consistent. No rocket science so less likely you forget what you did yesterday. 
+The robot can and must be modified. Experiment, log changes and try different things. I just explain where. Simple recommendation is to make modular changes and use Version Control.
 
 ## Conclusion
 
-We will conclude this course in style! All because we will be using our own Trading Journal to evaluate the results. That's because we will always want to be Lazy and... "Save Your Time and let Computer Do the Job"
-
+Course is concluded by showing Demo test trading results. The results will be shown using our own Trading Journal [topic of the next course of the series]. That's because we will always want to be Lazy and... "Save Your Time and let Computer Do the Job"
