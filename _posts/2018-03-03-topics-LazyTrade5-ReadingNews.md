@@ -40,17 +40,7 @@ In case our trading system is not designed to capture sudden volatility it may b
 
 ## Web as the data source…
 
-Once again apologise for the title of the course and if it does not meant what the reader would expect it to deliver.
+xxxx
  
-## It is not a holy grail but probably better…
-
-If we would measure results of both supervising systems of our trading systems we would always come to the point to say that:
-
-- good winning trading system will always be good and 
-- poor lousy trading system will always be bad
-
-All those supervised systems at the end will help you to limit your absolute amount of losses in case your trading systems will be loosing and ineffective.  There is still a chance that profitable trading system would be less profitable because of applied supervision. Once again it’s not a holy grail. It is very unlikely that totally un-profitable trading system would become profitable just by following this course
 
 ## Conclusion
-
-Personally I would not use robots to trade unless I would know there would be a supervision layer active to monitor what is there going on. Automating that decision layer can be questionable as we are probably ready to risk expecting probable reward. However creating *Self-thinking* system is probably very lucrative for one simple reason - psychology of the trader… “faciant migliore potentis” / “Who do may try to make it better” - lat. And at the end of the day you can try to use this system in order to "Save Your Time and let Computer Do the Job"
