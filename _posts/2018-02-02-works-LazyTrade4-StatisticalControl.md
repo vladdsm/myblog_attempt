@@ -27,6 +27,6 @@ Learn to set up Automated Statistical Analysis and Control of your Trading Syste
 - Setting up Version Control for your projects
 - Integration with Decision Support System for Trading
 - Demo Trading Test
-- Be able to apply Reinforcement Learning to any generic problem
+- Be able to apply Reinforcement Learning to other generic problem
 
 Check out the course [here](https://www.udemy.com/your-trading-control-reinforcement-learning/?couponCode=LAZYTRADE4-10) 

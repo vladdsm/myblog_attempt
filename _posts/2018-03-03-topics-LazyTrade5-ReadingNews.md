@@ -16,4 +16,41 @@ tags:
   - MQL4
 ---
 
-Draft Article about 5th Course
+## Read News and Sentiment Analysis in Forex
+
+In this blogpost [5 min read] I would like to explain the motivation behind the fifth course of the series. 
+
+The title of the course may be misleading. It is not about training an algorithm to decode speech of the Prime Ministers or Central Banks heads in real time and generate trading decisions. No, it is about more simple things and ideas. First is to automatically detect presence of certain disruptive events in the Financial world like elections, key Forex news releases etc. Second it’s about studying polarity score or sentiment of the News headers and trying to correlate that to Financial Markets. Latter idea is probably very naive but in any case, the concepts covered in this course will help you to:
+
+* Learn to perform web harvesting or scrapping to gather information from the Internet
+* Be able to automatically disable your trading systems in case matched Macroeconomic news are detected
+* Learn to perform Polarity Scoring sentiment analysis of the text
+* Perform descriptive analysis of the Polarity Scoring of the News headers from 3 english speaking countries US, UK, CA
+* Get the example of trading robot (use at your own risk) to define explore and test the trading idea
+* Answer the question: “Are we bombarded by the bad news?” 
+
+By the way, **This is not a trading advice!** so just relax and have a fun reading for the next 5 minutes!
+
+## Know when macroeconomic news are released?
+
+In case our trading system is not designed to capture sudden volatility it may be a good reason to avoid trading on certain days. Decision to do so is out of scope of this course. What the scope is is how to automate this process and to stop trading systems when certain event is going to occur.
+
+## How do we do that?
+
+
+## Web as the data source…
+
+Once again apologise for the title of the course and if it does not meant what the reader would expect it to deliver.
+ 
+## It is not a holy grail but probably better…
+
+If we would measure results of both supervising systems of our trading systems we would always come to the point to say that:
+
+- good winning trading system will always be good and 
+- poor lousy trading system will always be bad
+
+All those supervised systems at the end will help you to limit your absolute amount of losses in case your trading systems will be loosing and ineffective.  There is still a chance that profitable trading system would be less profitable because of applied supervision. Once again it’s not a holy grail. It is very unlikely that totally un-profitable trading system would become profitable just by following this course
+
+## Conclusion
+
+Personally I would not use robots to trade unless I would know there would be a supervision layer active to monitor what is there going on. Automating that decision layer can be questionable as we are probably ready to risk expecting probable reward. However creating *Self-thinking* system is probably very lucrative for one simple reason - psychology of the trader… “faciant migliore potentis” / “Who do may try to make it better” - lat. And at the end of the day you can try to use this system in order to "Save Your Time and let Computer Do the Job"
