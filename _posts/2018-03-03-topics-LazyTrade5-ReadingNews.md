@@ -70,12 +70,18 @@ Thanks to qdap library we can calculate overall sentiment of every news header. 
 
 Thanks to this analysis we can easily get average sentiment values from the entire country. This is the result of what you can see after 1 month of collecting this data:
 
+<img src ="https://github.com/vzhomeexperiments/R_NewsReading/blob/master/2018-04-21-AllNews.png" alt="speakom"   />
+
+As you may see the majority of the values are always below zero with only few exceptions…
 
 If we subtract absolute values from one country to another country we will get this graph:
 
+<img src ="https://github.com/vzhomeexperiments/R_NewsReading/blob/master/2018-04-19_SetThreshold.png" alt="speakom"   />
 
+Notice that sometimes the difference is quite high and the lines would correspond to the selected trading trigger. What does this trigger is physically meaning? Well, if the value is above the trigger line e.g. 0.1 that means that:
 
-Notice that sometimes the difference is quite high. This is physically meaning that there was good news in one country and bad news in another country. Or, bad news in one country and very bad news in another country…  
+A. There was very good news in one country and bad news in another country.
+B. There was bad news in one country and very bad news in another country…  
 
 ## Conclusion
 
