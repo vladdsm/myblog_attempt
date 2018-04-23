@@ -28,6 +28,7 @@ At the end of this course you will learn to program your own decision and automa
 * Using *Reinforcement Learning* algorithm to make more advanced decision support using RL Policy
 * Stay more calm psychologically as you will have your own system that can manage your risks for you
 * Learn by reproducing provided examples and further improve them (including Trading Robot)
+* Getting organised by receiving a summary of trading robots performance and decide on robots maintenance
 * Understand limitations of this method (no holy grail)
 
 By the way, **This is not a trading advice!** so just relax and have a fun reading for the next 7 minutes!
@@ -58,15 +59,15 @@ It is probably the simplest way to automate decision. We can just monitor how mu
 
 Profit Factor is something by default considering sufficient amount of trades to be calculated. It is obtained by dividing all profits to the all losses of the N closed orders of the trading system. That is easy. If profit factor would be higher than 1 our trading system would be profitable. The rest are just details. 
 
-We can define profit factor level when we consider the Research system is profitable and sufficiently robust to deploy Attacker system. As well as we can also stop this Attacker system in case Profit Factor of the Researcher system would drop below the certain profitability level. 
+We can define profit factor level when we consider the Research system is profitable and sufficiently robust to deploy Attacker system. As well as we can stop this Attacker system in case Profit Factor of the Researcher system would drop below the certain profitability level. 
 
-This method is better than previous as it may capitalise on successful system profit. We can decide now to only consider last trades only so to consider recent history of the system. Of course this method would assume our trading system would have sufficiently long winning or loosing streaks.
+This method is better than previous as it may capitalise on successful system profit. We can decide now to only consider last trades only so to consider recent history of the system. Of course this method would assume our trading system would have sufficiently long winning or loosing streaks. One can decide the number of trades to consider in this logic. The fewer number selected the more risky but flexible this system will be. Opposite, if the trading system is generating many trades it would be possible to extend the number for the profit factor so the decision would be more reliable but slow to react to the changes
 
-This course is providing you example of R code that can be used to supervise trading systems and take decision to switch on/off successful systems using Profit Factor monitoring. Indeed code is elegantly written using *tidyverse* verbs and few *pipes*, it should be very easy to reproduce this code and to understand what is there happening…
+This course is providing an example of R code that can be used to supervise trading systems and take decision to switch on/off successful systems using Profit Factor monitoring. Indeed code is elegantly written using *tidyverse* verbs and few *pipes*, it should be very easy to reproduce this code and to understand what is there happening…
 
 ### What about Reinforcement Learning?
 
-Exactly this concept was the main driver creating this course. For the Author it was priceless experience to study the concept of Action - Reward principle and apply that for trading. The idea is probably more hard to grasp without putting hands on on the subject however it’s very much worth it. And this is because the fact that principle can be applied to many different situations apart of trading.
+Exactly this concept was the main driver creating this course. For the Author it was priceless experience to study the concept of *Action - Reward* principle and apply that for trading. The idea is probably more hard to grasp without putting hands on to the subject however it’s very much worth it. And this is because the fact that principle can be applied to many different situations apart of trading. In fact this principle is used to teach computer to beat human in computer games…
 
 In simple words Reinforcement Learning is something about continuously calculating probability of getting positive *Reward* provided some experience made on *Environment*. Once we have that estimate we can generate *Policy* of our our future actions. Trading is the ideal world for that. Reward - is our Profit or Loss, Environment - is all our trades we did. Policy is our decision to use or not use this particular trading system…
 
@@ -76,17 +77,20 @@ The greatest challenge in this particular case was around getting information fo
 
 1. Cumulative sum of profits is used when Researcher trading system is just deployed
 2. Trading results of the Attacker system is later being used to re-train the model for our Attacker trading system
+
+## Tell me when to optimise
+
+Another simple idea of the course is to automate decision process to trigger Trading System maintenance. For example, our Researching system is absolutely poor and becoming even poorer. Of course we are not risking anything but there might be times when it would be worth to look at it. What about weekly or monthly summary about your systems? What about spending few hours on Saturday to have a look on those and check these systems out?
  
 ## It is not a holy grail but probably better…
-
-
-
-## Conclusion
 
 If we would measure results of both supervising systems of our trading systems we would always come to the point to say that:
 
 - good winning trading system will always be good and 
 - poor lousy trading system will always be bad
 
-All those supervised systems at the end will help you to limit your absolute amount of losses in case your trading systems will be loosing and ineffective.  There is still a chance that profitable trading system would be less profitable because of applied supervision.
- What is important is that it should... "Save Your Time and let Computer Do the Job"
+All those supervised systems at the end will help you to limit your absolute amount of losses in case your trading systems will be loosing and ineffective.  There is still a chance that profitable trading system would be less profitable because of applied supervision. Once again it’s not a holy grail. It is very unlikely that totally un-profitable trading system would become profitable just by following this course
+
+## Conclusion
+
+Personally I would not use robots to trade unless I would know there would be a supervision layer active to monitor what is there going on. Automating that decision layer can be questionable as we are probably ready to risk expecting probable reward. However creating *Self-thinking* system is probably very lucrative for one simple reason - psychology of the trader… “faciant migliore potentis” / “Who do may try to make it better” - lat. And at the end of the day you can try to use this system in order to "Save Your Time and let Computer Do the Job"
