@@ -60,7 +60,7 @@ In this course we are answering this question.
 
 A little challenge to the fellow reader: Please open any news aggregator of your preference. There would probably be 20 - 30 articles. Starting from politics moving to economy, sport, etc. Please try to classify these news according to simple grade: Good, Neutral, Negative. It is very likely that overall amount of news with negative score would prevail.
 
-Now why does that matter? How can it be relevant? Well the idea (author assumption) is that news sentiment does matter and affecting society. The assumption of the author is that people who will read the good news in the morning will go to work being more happy. They will have higher productivity and produce more goods, services. There is much higher chance the happy scientist would invent something new, isn’t it??? 
+Now why does that matter? How can it be relevant? Well the idea (author assumption) is that news sentiment does matter and affecting society. The assumption of the author is that people who will read the good news in the morning will go to work being more happy. They will have higher productivity and produce more goods, services. There is much higher chance the happy scientist would invent something new, isn’t it??? The rest is details. New better products would influence economic growth of the entire country. This is what behind the motivation of that naive social question 
 
 ## Social Research and trading idea
 
