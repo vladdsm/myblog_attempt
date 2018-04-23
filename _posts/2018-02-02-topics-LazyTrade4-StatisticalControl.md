@@ -17,44 +17,52 @@ tags:
 
 ## Statistical control of trades
 
-In this blogpost [5 min read] I would like to explain the motivation behind the forth course of the series. 
+In this blogpost [7 min read] I would like to explain the motivation behind the forth course of the series. 
 
-This course is all about decision and continuous independent management of risks. There are a lot of courses and methods out there about how to develop, optimize and use Automated Trading Systems. However it is quite often that parameters are not working anymore. Market Type may change, there might be “overfit” during optimisation process. Even though we may opt for exploiting robot that should be doing everything by itself, yet life shows that we [humans] are still need to be there and to decide to use this robot or not… At the end of this course you will learn to program your decision and automate it. You will have a chance to use either Profit Factor or more advance principle of Reinforcement Learning for doing that. The final idea is that we will create a Robot which will supervise all other robots! The concepts covered in this course will help you to:
+This course is all about decision and continuous human-independent management of risks. There are a lot of courses and methods out there about how to develop, optimise and use Automated Trading Systems. However it is quite often that parameters for algorithmic trading systems are not working. Even after “backtesting” Market Type may change, there might be “overfit” during optimisation process so the robot will fail. Even though we may opt for exploiting robot to trade, robot that should be doing everything by itself, yet life shows that we [humans] are still need to be there and to decide to use this robot or not… 
 
-* Set up Automated Monitoring for your Trading Systems
-* Dynamically calculating Profit Factors of the Trading Systems and using it for decision making
-* Using Reinfocement Learning algorithm to make more advanced decision support using RL Policy
-* Stay more calm psychologically as you will have your own system that can manage your risks
+At the end of this course you will learn to program your own decision and automate it. You will have a chance to use either *Profit Factor* or more advance principle of *Reinforcement Learning* for doing that. The final outcome of the course will consist in **creating a Robot which will supervise all other robots!** The concepts covered in this course will help you to:
+
+* Set up *Automated Monitoring* for your Trading Systems
+* Dynamically calculating *Profit Factors* of the Trading Systems and using it for decision making
+* Using *Reinforcement Learning* algorithm to make more advanced decision support using RL Policy
+* Stay more calm psychologically as you will have your own system that can manage your risks for you
 * Learn by reproducing provided examples and further improve them (including Trading Robot)
 * Understand limitations of this method (no holy grail)
 
-By the way, **This is not a trading advice!** so just relax and have a fun reading for the next 5 minutes!
+By the way, **This is not a trading advice!** so just relax and have a fun reading for the next 7 minutes!
 
 ## Why to use Statistical Methods to supervise your trades?
 
-The theoretical section of the course introduces the 2 proposed methods and why we should do that in the first place. Once again it is all about risk management. The idea would be to deploy many different trading systems [on Demo trading account], or one system with different parameters, and then only use the most successful system for trading. 
+The theoretical section of the course introduces the 2 proposed methods and why we should do that in the first place. Once again it is all about risk management. The idea would be to deploy many different trading systems [on Demo trading account], or one system with different parameters, and then only use the most successful system(s) for trading. 
 
 ## How to use it?
 
-Obviously one can decide to apply different methods of doing so:
+Obviously one can decide to apply different methods of managing trading systems results:
 
 - Stop trading system if lost more than X
-- Trade if Profit Factor is more than Y for the N trades
+- Trade if Profit Factor is more than Y for the N trades, stop Trading if Profit Factor is less than Z
 - Apply Reinforcement Learning Policy estimating reward R for the decision D
 
-Further below I would expand each concept in higher level details. In order to better get the idea proposed two actors are: *Researchers* and *Attackers*. Researchers are the trading systems deployed on Demo Account that are not afraid of loosing. Attackers are exactly same trading systems which are deployed on the different Demo Account. Latter systems would be considered to be as profitable as possible
+Further below I would expand each concept in higher level detail. In order to better get the idea let me propose two actors:
+
+* - *Researchers*. Researchers are the trading systems deployed on Demo Account that are not afraid of loosing. These are used to confirm hypothetical market inefficiency or the absence of those 
+
+* - *Attackers* are exactly same trading systems as researchers but they are deployed on the different Demo Account. They mean to wait until the relevant decision comes. The goal is to keep those Trading systems to be as profitable as possible
 
 ### Stop Trading System if it’s lost more than X 
 
-It is probably the simplest way to automate decision. We can just monitor how much system win or loss. This is also called PnL. If that PnL would exceed pre-defined amount then we stop. However this method is not even explained nor implemented in the course and for a simple reason. Imagine we have a trading system. It’s super powerful, gained so much and then started to deteriorate. Nothing will secure our profits because this method will still be waiting for the pre-defined amount of loss to stop nowadays un-successful system…
+It is probably the simplest way to automate decision. We can just monitor how much system will win or lose since it’s deployed. This is also called PnL monitoring. If that PnL would exceed pre-defined amount then we stop using this trading system. However this method is not even explained nor implemented in the course and for a simple reason. Imagine we have a trading system. It’s super powerful, gained so much and then started to deteriorate. Nothing will secure our profits because this method will still be waiting for the pre-defined amount of loss to stop nowadays un-successful system…
 
 ### Monitoring Profit Factor
 
-Profit Factor is something by default considering sufficient amount of trades to be calculated. It is obtained by dividing all profits to the all losses of the trading system. That is easy. If profit factor would be higher than 1 our trading system would be profitable. The rest are just details. We can define profit factor level when we consider the Research system is profitable and sufficiently robust to deploy Attacker system. As well as we can also stop this Attacker system in case Profit Factor of the Researcher system would drop below the certain profitability level. 
+Profit Factor is something by default considering sufficient amount of trades to be calculated. It is obtained by dividing all profits to the all losses of the N closed orders of the trading system. That is easy. If profit factor would be higher than 1 our trading system would be profitable. The rest are just details. 
 
-This method is better than previous as it may capitalise on successful system profit. We can decide now to only consider last trades only so to consider recent history of the system.
+We can define profit factor level when we consider the Research system is profitable and sufficiently robust to deploy Attacker system. As well as we can also stop this Attacker system in case Profit Factor of the Researcher system would drop below the certain profitability level. 
 
-Overall, this course provide you with example of R code that can be used to supervise trading systems and take decision to switch on/off successful systems. Indeed code is elegantly written using *tidyverse* verbs and few *pipes*, it should be very easy to reproduce this code to understand what is there happening…
+This method is better than previous as it may capitalise on successful system profit. We can decide now to only consider last trades only so to consider recent history of the system. Of course this method would assume our trading system would have sufficiently long winning or loosing streaks.
+
+This course is providing you example of R code that can be used to supervise trading systems and take decision to switch on/off successful systems using Profit Factor monitoring. Indeed code is elegantly written using *tidyverse* verbs and few *pipes*, it should be very easy to reproduce this code and to understand what is there happening…
 
 ### What about Reinforcement Learning?
 
@@ -71,7 +79,7 @@ The greatest challenge in this particular case was around getting information fo
  
 ## It is not a holy grail but probably better…
 
-In any case 
+
 
 ## Conclusion
 
