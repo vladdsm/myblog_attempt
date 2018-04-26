@@ -50,7 +50,13 @@ By the way, **This is not a trading advice!** so just relax and have a fun readi
 
 ## Why to detect Market Type status?
  
-xxx. 
+Theoretically Market Type can be split in several categories. Simplest categories may include Trending or Ranging types. Trending can in turn be both Upward looking or Downward looking, or Bullish and Bearish respectively. Categories may be extended also considering volatility. Finally we can have 6 market types. Typically used methods [parameters] to define Entry and Exit conditions may be completely different for those different market types, hence specific trading system may get deteriorated if Market Type is not considered in the Trading System.
+
+## The 3 assumptions
+
+First of all Market Type can be only found assuming we are defining the *timeframe* and we are looking to specific *time period duration*. For example it can be M15 chart with the duration of 16 hours. Provided this input data we can start identification. What is the third assumption?
+
+Assume we are able to properly detect market type for a given asset. There is still a chance that market type will change. For that we have to define the third assumption. We should assume that there will be sufficiently long period of time when such *condition would persist* so we will have a greater chances to exploit that Market Inefficiency
 
 ## How to do that?
 
@@ -62,26 +68,35 @@ Obviously one can decide to apply different methods:
 
 Everyone is free to choose specific method to use, the course however only focuses on using Deep Learning as it’s famous to be great in pattern recognition…
 
-## Assumptions and compromises
-
-In any case several compromises are necessary…
-
 ## Main steps to achieve the goal
 
-Course is split in few logical steps to perform the task. 
+Course is split in few logical steps to perform the task. Main idea is to:
+
+- Get the financial data
+- Manually classify specific market periods simply by selecting proper pattern
+- Train/Test/Use Deep Learning Model
 
 ### Selecting data
 
+Available data [asset indicator data] would be used to visually select data for each specific period. In fact why not to use the most advanced and unique computer on the planet [our own brain] for that? Overall data size would probably not be too big, however several weeks of data points divided by for example 64 bars may bring us 80 - 90 training instances. Each of those instances would contain pattern specific for selected market type. Of course some instances would contain wrong patterns however as long as those would not dominate the rest it should be fine.
+
 ### Training model…
+
+As many people would say data wrangling would take 80% of the time. This is true. In the course we would however spend some time to look how to setup different type of models. For example if we define categories as numeric property we can end up using Regression Model. Should we keep categories we can of course remain with Classification Model. 
+
+Training Deep Learning model can be tricky. For example one may find different performances just because of using more processors to make parallel calculations. The other possible challenge is modelling results reproducibility. Even using the same data, computer and code may result in different accuracy outcomes.
 
 ### Saving Model
 
+Once the model would be tested we can of course save it persistently to the file object.
+
 ### Using the Model
 
-
+This is always the most fascinating time. Especially when our model would be capable to correctly predict at least 80 % of the time correctly. It would be even great if our model would be smart enough to automatically re-train itself to even further improve it’s functionality… Nevertheless course is for the moment focuses only on Trading Robot capable to use different sets of parameters for different Market Types. In addition to that Robot allows us to completely disable trading for one or more specific market types.
 
 ## Demo trial
 
+In order to perform the demo trial we would need to optimise our robot. The idea is to use the same Asset, Market type of the asset and find best parameters for those periods by optimisation.
  
 ## It is not a holy grail but probably better…
 
