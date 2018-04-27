@@ -36,34 +36,45 @@ They believe that their winning expectancy will be dominating the loosing expect
 
 ## Still, why it's bad for society!
 
-Typical situation: One person is risking 1 dollar, getting 99 dollars from the bank, instruct broker to buy or sell the asset, close the position after pre-defined price move, return 99 dollar, commission and get the profit or loss, repeat this many time during the day... 
+Typical situation: One person is risking 1 dollar, getting 99 dollars from the bank, instruct broker to buy or sell the asset, close the position after pre-defined sub-cent price move called ‘pips’, return 99 dollar, commission and get the few dollar profit or loss, repeat this many time during the day in the automated way… 
 
-Now, think about it. What is produced? What is the added value? Not speaking about the taxes. Do you know that UK does not tax income generated from such trades?
+Now, think about it. What is produced? What is the added value? Not speaking about the taxes. Do you know that few countries in the world [e.g. UK] does not tax income generated from such activities? You may of course argue that those people are sick and would loose their money anyway, yet phenomenon is really exists with very great extent. Trillions of dollars everyday that is the the volume of money involved…
 
 ## Why it can give you value?
 
 ### It's probably the best thing to learn computer and data science!
+
+Just a few comments why I believe that data and infrastructure can be used to scale up your skills:
 
 - Perfect data
 - Free software
 - You can implement your crazy ideas
 - You can see the result
 - Risk free using Demo accounts
+- Free basic education
+
+In fact software and data that exists out there is available for free with a download click. Data is stored in the servers in the structured way, base functions and entire programming languages are created to manage all that! A lot of forums with information and often free articles and tutorials. More over it’s possible to try all that in a very risk free environment using Demo accounts at many available brokers… Brilliant! It’s just important not to loose your patience and to convert that gold into useful things
 
 ### Why do I call it Lazy Trading?
 
-I think that there would always be people who want to try algorithmic trading. However what I want to bring into the subject is to provide ideas for those people on how they can be more efficient with algorithmic trading. The idea is to use top level of supervision allowing to replace trader decision. My goal is to automate what can be automated leaving to the trader just possibility to supervise and maintain the trading systems. Giving to the trader psychological relaxation from the fact that Artificial Intelligence will take care about the situation...
+I think that there would always be people who want to try algorithmic trading. However what I want to bring into the subject is to provide ideas for those people on how they can be more efficient with algorithmic trading. The idea is to use top level of supervision allowing to replace trader decision. My goal is to automate what can be automated leaving to the trader just possibility to supervise and maintain the trading systems. Giving to the trader psychological relaxation from the fact that Artificial Intelligence will take care about the situation... 
+
+The idea is to use building blocks and to create what I call “Decision Support System”. Lazy trading is the concept that would help anyone to set up the direction, build this Decision Support Ecosystem, improve it while keeping everything under Version Control
 
 ### Why am I creating this series?
 
-First of all this series was created to bring together series of tools that I created while researching the Algorithmic Trading. I wanted to keep this in the structured form to eventually bring that as a completed project one can reproduce. This is because by creating a course Instructor is almost obliged to follow predefined structure of the course.
+First of all this series was created to bring together series of tools that I created while researching the Algorithmic Trading. I wanted to keep this in the structured form to eventually bring that as a completed project one can reproduce. This is because by creating a course Instructor is almost obliged to follow predefined structure of the course. Well as reader may understand, this helping to the Author to be more disciplined and accurate - things that are so difficult to keep in mind!  
 
-Second reason is that I am able to learn, practice and obviously share the concepts and methods with my students. Concepts that I am using for real value-added projects in the industry. Concepts that students can take and apply for the real world applications
+Second reason is about the possibility to learn, practice and obviously share the concepts and methods with students in the transparent way. 
+
+Third reason is that concepts used in the course will be valuable for real value-added projects in the industry. Concepts that students can take and apply for the real world applications or at least being able to demonstrate competence to get a good job
 
 ### What only benefit I can guarantee?
 
-Even though I am not specifically popularizing any particular trading strategy or inefficiency I believe that these courses are bringing the entire framework trader can use to perform his/her own research. This framework can be expanded to suit more specific needs. On top of that while one study and replicate or adapt this framework it will be possible to learn technologies and apply learnings to bring real value to society. This is the only benefit I can guarantee - is to learn Computer and Data Science through Trading.
+Even though no specific trading strategy or market inefficiency is being promoted author believes that these courses are bringing the entire framework trader can use to perform his/her own research. This framework can be expanded to suit more specific needs. On top of that valuable learning would appear naturally thought replication of proposed methods. These general purpose methods could be applied elsewhere to bring real value to society. This is the only benefit I can guarantee - is to learn Computer and Data Science through Trading.
 
 ## Conclusion
 
-I hope that this little article has answered question about the idea of Lazy Trading. Make sure to read specific articles about each course of the series
+Hopefully this little article has answered question about the idea of *Lazy Trading*. How to start with that? Make sure to read specific article about each course of the series.
+
+Thank you for reading!!!

@@ -28,7 +28,7 @@ The title of the course may be misleading. It is not about an algorithm to decod
 * Learn to perform web harvesting or scrapping to gather information from the Internet using R and rvest package
 * Be able to automatically disable your trading systems in case matched Macroeconomic news are detected
 * Learn to perform Polarity Scoring sentiment analysis of the text
-* Perform descriptive analysis of the Polarity Scoring of the News headers from 3 english speaking countries US, UK, CA (I have a separate course about automated translation as well)
+* Perform descriptive analysis of the Polarity Scoring of the News headers from 3 english speaking countries US, UK, CA (if needed please check a separate course about automated translation with R and Google API)
 * Get the example of trading robot (use at your own risk) to define explore and test the trading idea
 * Answer the question: “Are we bombarded by the bad news?” 
 
@@ -36,7 +36,7 @@ By the way, **This is not a trading advice!** so just relax and have a fun readi
 
 ## Know when macroeconomic news are released?
 
-In case our trading system is not designed to capture sudden volatility it may be a good reason to avoid trading on certain days. Decision to do so is out of scope of this course. What the scope is is how to automate this process and to stop trading systems when certain event is going to occur.
+In case our trading system is not designed to capture sudden volatility it may be a good reason to avoid trading on certain days. Decision to do so is out of scope of this course. What is in the scope is how to automate this process and to stop trading systems when certain event is going to occur.
 
 ## How do we do that?
 
@@ -58,17 +58,17 @@ Still, there would be always attempts to use AI to derive trading decision. Once
 
 In this course we are answering this question. 
 
-A little challenge to the fellow reader: Please open any news aggregator of your preference. There would probably be 20 - 30 articles. Starting from politics moving to economy, sport, etc. Please try to classify these news according to simple grade: Good, Neutral, Negative. It is very likely that overall amount of news with negative score would prevail.
+A little challenge to the fellow reader: Please open any news aggregator of your preference or even a newspaper. There would probably be several articles looking on you. Starting from politics moving to economy, sport, etc. Please try to classify these news according to simple grade: Good, Neutral, Negative. It is very likely that overall amount of news with negative score would prevail and very unlikely the opposite.
 
-Now why does that matter? How can it be relevant? Well the idea (author assumption) is that news sentiment does matter and affecting society. The assumption of the author is that people who will read the good news in the morning will go to work being more happy. They will have higher productivity and produce more goods, services. There is much higher chance the happy scientist would invent something new, isn’t it??? The rest is details. New better products would influence economic growth of the entire country. This is what behind the motivation of that naive social question 
+Now why does that matter? How can it be relevant? Well the idea (author assumption) is that news sentiment does matter and affecting society. The assumption of the author is that people who will read the good news in the morning will go to work being more happy. They will have higher productivity and produce more goods, services. There is much higher chance the happy scientist would invent something new, isn’t it??? The rest is details. Finally new better products would positively influence economic growth of the entire country. This is what behind the motivation of that naive social question 
 
 ## Social Research and trading idea
 
 So using packages *rvest* and *qdap* we can read news headers from the news aggregator of several countries. 
 
-Thanks to qdap library we can calculate overall sentiment of every news header. Software is using pre-defined library of classified words and output the score being positive if it’s more than 0 and vice versa negative sentiment will return value below zero.
+Thanks to qdap library we can calculate overall sentiment of every news header. Software is using pre-defined library of classified words and output the score being positive if it’s more than 0 and vice versa negative sentiment will return value below zero. Not all the words are classified however the tendency is that people do often use just 20 % of all existent vocabulary [People are just lazy]
 
-Thanks to this analysis we can easily get average sentiment values from the entire country. This is the result of what you can see after 1 month of collecting this data:
+Thanks to this analysis we can easily get average sentiment values from the entire country. This is the result of what one can see after 1 month of collecting this data:
 
 <img src ="https://raw.githubusercontent.com/vzhomeexperiments/R_NewsReading/master/2018-04-21-AllNews.png" >
 
@@ -85,4 +85,4 @@ B. There was bad news in one country and very bad news in another country…
 
 ## Conclusion
 
-At the moment of writing this blog the research is still going on. What is clear so far is that majority of the news sentiment are negative. There are only few days when positive news do prevail. However why not to be about this and try to change that! Can we all influence this situation to make it opposite? Can we make it the way around so the good news would prevail? Perhaps then we will live in the better place?!
+At the moment of writing this blog the research is still going on. What is clear so far is that majority of the news sentiment are negative. There are only few days when positive news do prevail. However why not to do something about this and try to change that! Can we all influence this situation to make it opposite? Can we make it the way around so the good news would prevail? Perhaps then we will live in the better place?!
