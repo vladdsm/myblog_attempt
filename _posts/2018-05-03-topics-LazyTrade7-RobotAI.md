@@ -25,20 +25,22 @@ This post is about non existing course, yet I wanted to put my thoughts on the �
 
 ## Big Idea
 
-By having a honest look on the content created so far, evaluating already available options it is possible to set at least few directions about the next course:
+By having a honest look on the content created so far, evaluating already available options, once again considering we are in the Lazy Trading courses series… it is possible to set at least few directions about the next course. What if we will be able to:
 
 * Automatically detecting and exploiting Market Inefficiencies
 * Having a trading robot capable to automatically estimate & validate best parameters
 * Having a robot capable to learn from previously performed trades
-* Creating a robot scalper that is evaluating Market Type for multiple timeframes and using this information as trading trigger
+* Creating a robot scalper that is evaluating Market Type Artificial Intelligence predictions for multiple timeframes and using this information as trading trigger
 
-I hope that what is written above do make sense, if not please continue reading as I may be able to clarify those further. Seriously these bullet points are written starting from hardest one on top and the easiest ones are those 2 below. 
+I hope that what is written above do make sense, if not please continue reading as I would be trying to clarify those further.
+
+Also please consider that these bullet points are written starting from hardest one on top and the easiest ones are those 2 below. 
 
 By the way, **This is not a trading advice!** so just relax and have a fun reading for the next 5-7 minutes!
 
 ### Automatically detecting and exploiting Market Inefficiencies
 
-The idea of this point would be to use Unsupervised Machine learning methods such as k-means or hierarchical clustering. We may simply collect sufficient amount of data from several indicators, perhaps perform dimensionality reduction using Principle Component Analysis then find clusters in the data… After having those clusters we may backtest several trading scenarios for each cluster (considering randomness of k-means algorithm). Once we know best estimate for each cluster and the model we can score the latest data and see which cluster it belongs too… this in turn may be considered as an entry point for the trading robot. Well sounds like a plan, right???
+The idea of this point would be to use Unsupervised Machine learning methods such as *k-means* or *hierarchical clustering*. We may simply collect sufficient amount of data from several indicators, perhaps perform dimensionality reduction using *Principle Component Analysis* then find clusters in the data… After having those clusters we may backtest several trading scenarios for each cluster (considering randomness of k-means algorithm). Once we know best estimate for each cluster and the model we can score the latest data and see which cluster it belongs too… this in turn may be considered as an entry point for the trading robot. Well sounds like a plan, perhaps not that clear right??? 
 
 ### Having a trading robot capable to automatically estimate & validate best parameters
 
