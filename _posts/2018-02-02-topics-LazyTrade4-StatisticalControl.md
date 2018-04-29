@@ -73,7 +73,7 @@ Exactly this concept was the main driver creating this course. For the Author it
 
 In simple words Reinforcement Learning is something about continuously calculating probability of getting positive *Reward* provided some experience made on *Environment*. Once we have that estimate we can generate *Policy* of our our future actions. Trading is the ideal world for that. Reward - is our Profit or Loss, Environment - is all our trades we did. Policy is our decision to use or not use this particular trading system…
 
-When it comes to details, it is always some details. In particular we can have some room for manoeuvre. For example we can specify how quick our system will learn, how eager our system would be to keep knowledge, how much of the last experience it would consider etc. It is somehow similar to PID loop in Engineering but rather here we are dealing with data and coefficients are called *alpha*, *beta* and *gamma*.
+When it comes to details, it is always some details. In particular we can have some room for manoeuvre. For example we can specify how quick our system will learn, which strategic reward strategy will be considered for short or longer term, how much of the last experience it would consider etc. It is somehow similar to PID loop in Engineering but rather here we are dealing with data and coefficients are called *alpha*, *gamma* and *epsilon*.
 
 The greatest challenge in this particular case was around getting information for the model in the right shape. It was about transforming information from our trades into the form digestible by the Reinforcement Learning Function in R. The proposed way is to use two steps approach:
 
