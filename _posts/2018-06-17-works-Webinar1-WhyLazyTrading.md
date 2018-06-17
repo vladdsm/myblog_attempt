@@ -1,6 +1,6 @@
 ---
 priority: 0.6
-title: Free Webinar: Learn Data Science using Trading
+title: Free Webinar to Learn Data Science using Trading
 excerpt: Learn Computer and Data Science through Algorithmic Trading
 author: vladdsm
 background-image: home-trading-station.PNG
