@@ -3,6 +3,7 @@ title: Data Scientist Lessons Learned
 excerpt: Re-iterate to improve your code and make it more robust!
 date: 2018-08-05
 author: vladdsm
+background-image: code_roxygen.JPG
 categories:
   - topics
 tags:
@@ -78,7 +79,7 @@ I heard from one colleague that there are not only two things certain in live bu
 
 * taxes
 * death
-* and bad data...
+* and *bad data...*
 
 Some typical examples:
 
@@ -109,6 +110,10 @@ Keeping diagnostics records generated during execution of your code is very good
 * quick check of performance and generated value
 * possible to automate checks
 * possibility 'not to forget' about the project
+
+Implementation can be very easy. It is sometimes just enough to save the resulting dataframe into `*.csv` or `*.rds` formats. For example, code below will write the resulting dataframe to the specific location:
+
+`... %>% write_csv(path = paste0(path_LOG, Sys.Date(), "-", num_bars, "-",timeframe, "R", ".csv"))`
 
 ### Don't erase the mistakes, use Version Control!
 
