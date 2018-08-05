@@ -71,7 +71,18 @@ Keeping code in functions is probably the right approach, however it may be pain
 * insert 'Roxygen scheleton' and write description of each argument
 * always add commented code within your function to 'back-test' the code step by step within the function
 
-Some of these tips could obviously be used for simple R scripts
+Some of these tips could obviously be used for simple R scripts as well
+
+#### Refresh your mind
+
+Developer brain is like CPU! It needs two essential things:
+
+* energy
+* cooling
+
+So make sure to start your work after having light breakfast or snack rich in carbohydrates. Cup of coffee or tea with a bit of a chocolate is something that will work. When the attention is lower the energy portion may be renewed. Drinking more water and some short physical exercise can help too.
+
+Obviously cooling is something not to forget about. Taking a refreshing shower before start can be a good choice
 
 ### Data cleaning - once again... Making things Visual
 
