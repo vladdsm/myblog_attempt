@@ -3,7 +3,7 @@ title: Model based Algorithmic Trading
 excerpt: Considerations about model derived Trading Decisions for Algorithmic Trading
 date: 2018-08-12
 author: vladdsm
-background-image: code_roxygen.JPG
+background-image: skypatterns.JPG
 categories:
   - topics
 tags:
