@@ -27,7 +27,7 @@ This blog post [5 min read] is discussing about those challenges. Main message i
 
 ### Not satisfied? Keep experimenting with new ideas!
 
-Sometimes the results of your code are not satisfactory. It might be like that right soon after start of your test or even after a month of two after code deployment. Good advised is to come back to the code with some plan like that:
+Sometimes the results of your code are not satisfactory. It might be like that right soon after start of your test or even after a month of two after code deployment. Good advise is to come back to the code with some plan like that:
 
 * re-produce your work
 * note the 'opportunities'
@@ -38,7 +38,9 @@ Obviously make sure to follow objective KPI of the experiment and track changes.
 
 ### Productivity tips - how to stop `code reviewing procrastination`
 
-`Coding` is so un-natural for the human being. I have very often so high procrastination level to simply open and review the code again. It's incredible! Probably the main reason of this phenomenon is that developer would need to stress the brain to remember the code and literally 'place' the code into the brain! It is like to build a house inside of your brain. Visualizing the structure of your work, putting those functions to specific building blocks, starting to go through those functions from start to end and checking the outcomes of every module... A simple thought that this process will need to be repeated is bringing procrastination. Probably this procrastination level will exponentially increase according to the time of last code review!
+`Coding` is so un-natural for the human being. I have very often so high procrastination level to simply open and review the code again. It's incredible! Probably the main reason of this phenomenon is that developer would need to stress the brain to remember the code and literally 'place' the code into the brain! It is like to build a house inside your brain. 
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/brain.JPG" alt="speakom"   />
+Visualizing the structure of your work, putting those functions to specific building blocks, starting to go through those functions from start to end and checking the outcomes of every module... A simple thought that this process will need to be repeated is bringing procrastination. Probably this procrastination level will exponentially increase according to the time of last code review!
 
 Those are few tips one can use to 'step over' and 'enter' out of comfort zone:
 
@@ -46,7 +48,7 @@ Those are few tips one can use to 'step over' and 'enter' out of comfort zone:
 
 Code review may take anything from few minutes or few hours. It might be very advisable to find a complete free day and focus on this work. Perhaps Saturday or Sunday morning may do the trick best. Knowing that there will be sufficient time to slowly start and having a chance to finish the job will help to take decision and finally sit to start your work
 
-#### Watch a good movie day before
+#### Watch a good movie a day before
 
 Switch your mind day before presumed work. Watch a nice movie that would move your mind completely away from coding. However two conditions. Let it be a story from start to end of approximately 2 hours. Find a movie you would like but chose from those not hard for the brain. Just make sure that it would be an interesting story but not something that would seed a message or influence your thoughts for too long time!
 
