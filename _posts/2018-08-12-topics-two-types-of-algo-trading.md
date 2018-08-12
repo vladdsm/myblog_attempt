@@ -28,7 +28,7 @@ After having studied and practiced the two methods it is finally possible to tak
 
 ## Summary of the two methods
 
-Table below, already discussed in the (seventh course of the Lazy Trading Series)[https://www.udemy.com/self-learning-trading-robot/?couponCode=LAZYTRADE7-10] summarize both Algorithmic Trading approaches:
+Table below, already discussed in the [seventh course of the Lazy Trading Series](https://www.udemy.com/self-learning-trading-robot/?couponCode=LAZYTRADE7-10) summarize both Algorithmic Trading approaches:
 
 <img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/compareOptimizeVSModels.PNG" alt="speakom"   />
 
@@ -51,7 +51,7 @@ Final implementation may be very complex and not be suitable for majority of ret
 On the other hand one should not forget about possible caveats:
 
 * Slower execution
-* Harder to interpret
+* Harder or impossible to interpret the model (more prone to mistakes)
 * Requires knowledge of R/Python or other specific Machine Learning Platform, link to Trading Platform
 
 ## Conclusion
