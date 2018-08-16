@@ -81,4 +81,4 @@ Thank you for reading!!!
 
 p.s. for those who are too lazy to read here is a little video trailer!
 
-{% include youtubePlayer1.html id="MxFMtTdaOn0&t" %}
+{% include youtubePlayer1.html id="MxFMtTdaOn0" %}
