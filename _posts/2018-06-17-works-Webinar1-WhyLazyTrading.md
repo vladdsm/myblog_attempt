@@ -26,6 +26,8 @@ tags:
 
 Join free Webinar to learn why it's great to learn Data Science using Trading
 
+{% include youtubePlayer.html id=page.jFELd30SWcs %}
+
 #### When?
 
 Saturday 23rd June 10AM GMT+2/CEST (for those who live in Asia or Europe)	
