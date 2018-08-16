@@ -24,17 +24,9 @@ tags:
 
 #### Summary
 
-Join free Webinar to learn why it's great to learn Data Science using Trading
+Watch this Webinar to learn why it's great to learn Data Science using Trading
 
-{% include youtubePlayer.html id="jFELd30SWcs" %}
-
-#### When?
-
-Saturday 23rd June 10AM GMT+2/CEST (for those who live in Asia or Europe)	
-[https://youtu.be/p0NhsKNBB_k](https://youtu.be/p0NhsKNBB_k)
-
-Saturday 23rd June 7PM GMT+2/CEST (for those who live in Europe or Americas)	
-[https://youtu.be/y98A--ikxlE](https://youtu.be/y98A--ikxlE)
+{% include youtubePlayer.html id="eJrGy13m6nY" %}
 
 #### Why?
 
@@ -48,16 +40,6 @@ What is the bigger strategy?
 
 Simply have possibility to ask any question to real person in real time
 and... there will be free giveaways of coupons to my courses*
-
-#### How to Join?
-
-Well, simply click on these links and they will show you the time in your timezone! Choose the best time to join the live streaming session:
-
-Saturday 23rd June 10AM GMT+2/CEST (for those who live in Asia or Europe)	
-[https://youtu.be/p0NhsKNBB_k](https://youtu.be/p0NhsKNBB_k)
-
-Saturday 23rd June 7PM GMT+2/CEST (for those who live in Europe or Americas)	
-[https://youtu.be/p0NhsKNBB_k](https://youtu.be/p0NhsKNBB_k)
 
 #### Curious about this project?
 
