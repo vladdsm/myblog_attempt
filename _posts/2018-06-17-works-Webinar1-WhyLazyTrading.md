@@ -26,7 +26,7 @@ tags:
 
 Join free Webinar to learn why it's great to learn Data Science using Trading
 
-{% include youtubePlayer.html id=page.jFELd30SWcs %}
+{% include youtubePlayer.html id="jFELd30SWcs" %}
 
 #### When?
 
