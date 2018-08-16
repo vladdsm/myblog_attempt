@@ -78,3 +78,7 @@ Even though no specific trading strategy or market inefficiency is being promote
 Hopefully this little article has answered question about the idea of *Lazy Trading*. How to start with that? Make sure to read specific article about each course of the series.
 
 Thank you for reading!!!
+
+p.s. for those who are too lazy to read here is a little video trailer!
+
+{% include youtubePlayer.html id="MxFMtTdaOn0&t" %}
