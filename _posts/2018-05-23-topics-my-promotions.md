@@ -54,5 +54,5 @@ Part 5: [Forex News and Sentiment Analysis)](https://www.udemy.com/forex-news-an
 
 Part 6: [Detect Market status with AI)](https://www.udemy.com/detect-market-status-with-ai/?couponCode=LAZYTRADE6-10)
 
-Part 7: [Detect Market status with AI)](https://www.udemy.com/self-learning-trading-robot/?couponCode=LAZYTRADE7-10)
+Part 7: [Developing Self Learning Trading Robot)](https://www.udemy.com/self-learning-trading-robot/?couponCode=LAZYTRADE7-10)
 
