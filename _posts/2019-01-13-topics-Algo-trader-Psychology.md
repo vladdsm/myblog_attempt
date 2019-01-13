@@ -25,8 +25,6 @@ betting dependence syndrome...
 
 Probably lot's of books are already written about these phenomena however let me propose few tips here on how I would deal with those situations myself!
 
-<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/multitasking-1733890_1920.jpg" alt="speakom"   />
-
 ## Why Psychology is important?
 
 There are probably several reasons:
@@ -83,3 +81,5 @@ Before I would say that my psychological test is complete I would use this check
 ## Conclusion
 
 These are just few tips to deal with psychology when doing algorithmic trading! By the way, it's sounds like a plan so let me do that myself!!!
+
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/multitasking-1733890_1920.jpg" alt="speakom"   />
