@@ -44,11 +44,15 @@ What I learn next was just the sequence of keys one need to press in order to go
 
 Once computer went to such recovery mode it was possible to see a very basic menu. There was just a few available programs. One of them was Disk Utility. Unfortunately disk with name **HD Microsoft** was not there...
 
-Immediate thought was 'I need a new Disk!'...
+Immediate thought was 'I need a new Hard Disk!'...
 
-## Do you need to buy another disk? Wait!
+## Do you think to buy another disk? Wait!
 
-Luckily I found 2 Hard Disks in my basket of electronic parts. One was recovered from one broken laptop, second was from the External hard disk... Basically my plan was just to replace existing disk with the one that I found. I just formatted this spare disk on my other Mac laptop by connecting that externally. Next I was able to swap the Hard Disks having freshly formatted one instead of the original one...
+Luckily I found not one but two Hard Disks in my basket of electronic parts. One was recovered from one broken laptop, second was from the External hard disk... Basically my plan was just to replace existing disk with the one that I found. I just formatted this spare disk on my other Mac laptop by connecting that externally. Next I was able to swap the Hard Disks having freshly formatted one instead of the original one...
+
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/mac-two-disks.JPG" alt="speakom"   />
+
+Luckily these Hard Drives are standardized - there is no 'Apple' or 'Microsoft' version. One can even be thinking to buy a Solid State Drive...
 
 ## Another disk was not recognized!
 
@@ -56,19 +60,23 @@ Unfortunately, newly fit disk was not recognized! Disk Utility application was s
 
 ## Recover the data...
 
-Next and natural step was to have a look on the disk from the MacBookPro. Luckily enough the connection used by External Hard Drive Storage was exact fit! Hence it was possible to connect this disk as a simple external drive and copy the data. In this case I had to use another MacBookAir laptop...
+Next and natural step was to have a look on the disk from the MacBookPro. Luckily enough the connection used by External Hard Drive Storage was exact fit! 
+
+Hence it was possible to connect this disk as a simple external drive and copy the data. In this case I had to use another MacBookAir laptop...
+
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/mac-disk-external.JPG" alt="speakom"   />
 
 ## Wow, install MacOS to External HardDrive!
 
-After that nice operation called data recovery I just decided to wipe that disk clean! Always using another MacBookAir laptop and connecting that disk externally. Once done I did reconnect this disk, always externally, to the 'sick' brother MacBookPro. It was an awesome feeling because this disk was now recognized by Disk Utility program. Moreover, I was able to install MacOS to that disk:
+After that nice operation called 'data recovery' I just decided to wipe that disk clean! Always using another MacBookAir laptop and connecting that disk externally. Once done I did reconnect this disk, always externally, to the 'sick' brother MacBookPro. It was an awesome feeling because this disk was now recognized by Disk Utility program. Moreover, I was able to install MacOS to that disk:
 
 <img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/mac_external_drive.JPG" alt="speakom"   />
 
-This was a magnificent feeling! A working computer again!
+This was a magnificent feeling - a working computer again! 
 
 <img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/mac-external-OS.JPG" alt="speakom"   />
 
-However one moment of reflection was needed! 
+Of course computer was technically fine to use however one moment of reflection was needed! Can we fully recover this laptop?
 
 ## Working outside, not working inside...
 
@@ -85,7 +93,7 @@ This was explained in this video:
 
 {% include youtubePlayer.html id="d_llWOIgQ6g" %}
 
-Apparently the problem is well known already... so as the solution
+Apparently the problem is well known already - holding your laptop on your knees will slightly bend and flex the lower plate... this bending will also bend the cable connection leading to the problem. Luckily enough the solution is known too!
 
 ## Get our spare part and repair...
 
@@ -97,4 +105,3 @@ It is probably so much easy just to say 'it is time to replace', however why not
 
 * Take some effort and to research about the problem and the effect
 * Whenever it is still not possible and professional service is too expensive then at least recover the hard drive as it may be handy for the next time!
-
