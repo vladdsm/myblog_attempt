@@ -3,7 +3,7 @@ title: Saving your laptop with 15 dollar
 excerpt: Tips to do before discarding your laptop
 date: 2019-02-17
 author: vladdsm
-background-image: chart-1905225_1920.jpg
+background-image: mac-picture-disk.JPG
 categories:
   - topics
 tags:
