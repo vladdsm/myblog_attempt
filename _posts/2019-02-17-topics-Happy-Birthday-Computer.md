@@ -7,20 +7,19 @@ background-image: chart-1905225_1920.jpg
 categories:
   - topics
 tags:
-  - Stress
   - How to repair macbook
   - Productivity
   - Computer Maintenance
   - Time saving
 ---
 
-## This is a real story of computer recovery with 15 dollar
+## Computer recovery with 15 dollar
 
-One evening I was in front of a little problem. Five or six years old laptop, precisely MacBookPro, did not want to start. While not having any urgent need to get a new one, I tried to spend some time trying to see what has happen...
+One evening I was in front of a little problem. Five or six years old laptop, precisely MacBookPro, did not want to start. While not having any urgent need to get a new one, I tried to spend some time trying to see what has happen and possibly to repair that...
 
 Finally I managed to completely recover this machine by doing some troubleshooting first, saving data, purchasing cheap spare and, finally by installing everything back.
 
-Of course chances that the very similar problem would occur with your computer are small, nevertheless I thought to write this blogpost just to explain the steps I did because there are probably so many cases when potentially low cost repairs would be able to save the hardware...
+Of course, chances that the very similar problem would occur with your computer are small, nevertheless I thought to write this blogpost just to explain the steps I did because there are probably so many cases when potentially low cost repairs would be able to save the hardware...
 
 ## The failure symptoms
 
@@ -41,7 +40,7 @@ Fantastic! One can be super knowledgeable just by typing in a google search the 
 
 What I learn next was just the sequence of keys one need to press in order to go to the Recovery Mode. In this case it was **CMD + R** as it was learned from this youtube video:
 
-{% include youtubePlayer.html id="0BM6ibkH_PM&list=PLLs2LjYfiZmjoiHkAiem2BRolRa9wPCt9" %}
+{% include youtubePlayer.html id="0BM6ibkH_PM" %}
 
 Once computer went to such recovery mode it was possible to see a very basic menu. There was just a few available programs. One of them was Disk Utility. Unfortunately disk with name **HD Microsoft** was not there...
 
@@ -84,7 +83,7 @@ Well, probably the problem is in the connection between Disk and the Logical Boa
 
 This was explained in this video:
 
-{% include youtubePlayer.html id="d_llWOIgQ6g&list=PLLs2LjYfiZmjoiHkAiem2BRolRa9wPCt9&index=2" %}
+{% include youtubePlayer.html id="d_llWOIgQ6g" %}
 
 Apparently the problem is well known already... so as the solution
 
