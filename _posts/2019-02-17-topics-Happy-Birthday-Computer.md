@@ -87,11 +87,11 @@ This was explained in this video:
 
 Apparently the problem is well known already... so as the solution
 
-## Get our part...
+## Get our spare part and repair...
 
 Getting this part was pretty easy. Just shop this part number which was delivered few days later. Obviously no need to explain further, computer was just recovered and ready for the new challenges :)
 
-# Conclusion
+## Conclusion
 
 It is probably so much easy just to say 'it is time to replace', however why not to:
 
