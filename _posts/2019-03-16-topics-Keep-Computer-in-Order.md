@@ -15,23 +15,23 @@ tags:
 
 ## Why to bother and maintain your Computer?
 
-Today Computers, Laptops, Smart-phones, Smart-watches are essential tools to be productive, get information or just use social media. They are part of our lives: we are addicted to them, we can't possibly imagine to live without them! Typically we just want to open them, achieve our goal, enjoy the result and go doing any other thing.
+Today Computers, Laptops, Smart-phones, Smart-watches are essential tools to be productive, get information or just use social media. They are part of our lives: we are working using them, communicating, getting news... Honestly, we are addicted to them because we can't possibly imagine to live without them! Ideally, we just want to open them, achieve our goal, enjoy the result and go doing any other thing next.
 
-Yet, we tend to ignore that computers are just things. They need to be cleaned, adjusted, repaired, etc. In other words, they are like our garages or cupboards - it's not that we just take our clothes! From time to time we have to check the cupboards, otherwise there will be a disorder...
+Yet, we tend to ignore that computers are just things. They need to be cleaned, adjusted, repaired, etc. In other words, they are like our garages or cupboards. It is not supposed to be that we just take our clothes and put those dirty clothes back! From time to time we have to check the cupboards, wash, repair, replace clothes, right? Otherwise there will be a total disorder :)
 
-In fact we may have a situation when computer or phone memory become so full so it is stops working normally or even crashes. Another problem may be that we can't seem to find relevant document and we start spending too much time to find one or another information... All that may make us irritated, not happy, or even destroyed (imagine several month or year work gets vanish)!
+In fact we may have a situation when computer or phone memory become so full so it is stops working normally or even crashes. Another problem may be that we can't seem to find relevant document and we start spending too much time to find one or another information... All that may make us irritated, not happy, or even destroyed (imagine several month or year's work gets vanish)!
 
-In this post I'd like to give few tips on what to do not to get caught by surprise. Of course, this is are very personal topic - this post will contain author's personal opinion of generic nature... Moreover, it is not an easy task! It requires some time and discipline - these are the things we do not usually like!
+In this post I'd like to give few tips on what to do in order to not get caught by surprise. Of course, this is are very personal topic - this post will contain author's personal opinion of generic nature... Moreover, it is not an easy task! It requires some time and discipline - these are the things we do not usually like!
 
 ## Tips Summary
 
-* Understand basic principles, invest time to educate your self about OS
+* Understand basic principles, invest time to educate your self about Operating System
 * Define some rules on information and folder organization, document it!
 * Define administrator when dealing with multiple devices
 * Possibly use OneDrive/Google Drive/iCloud to automatically synchronize important projects
-* Customize User Interface and document how you did it!
-* Keep list of softwares, Apps you do use, write the dates when you purchase and warranty
-* Do maintenance of your system
+* Customize User Interface of the Operating System and document how you did it!
+* Keep list of softwares, Apps you do use, write the dates when you purchase Apps, any Hardware warranty
+* Do maintenance of your systems
 * Archived older projects
 * Periodically re-install your system (1 time every 2 years)
 * Safely keep USB or External Hard Drives
@@ -79,9 +79,9 @@ Nowadays it is very common to have several devices in just one family. If that i
 
 For example, this article can be consulted to learn more about what to do before reseting your system: https://appletoolbox.com/2017/02/factory-reset-macbook-air-macs-macos/ (probably good to choose the most recent article of this sort)
 
-Or, using more advanced method from Apple Support. In particular, I followed this step to create a start up USB disk of the latest macOS operating system: https://support.apple.com/en-us/HT201372. Whenever something is not clear, do not hesitate to use Youtube videos that would illustrate the process more in detail. I was using this example https://www.youtube.com/watch?v=L4-dCYTptTQ
+Or, using more advanced method from Apple Support. In particular, I followed this step to create a start up USB disk of the latest macOS operating system: https://support.apple.com/en-us/HT201372. Whenever something is not clear, do not hesitate to use Youtube videos that would illustrate the process more in detail. I was using this example 
 
-{% include youtubePlayer.html id="L4-dCYTptTQ&list=PLLs2LjYfiZmjoiHkAiem2BRolRa9wPCt9&index=3" %}
+{% include youtubePlayer.html id="L4-dCYTptTQ" %}
 
 It is a lot of work, however having a freshly setup and clean system will definitely worth a try!
 
