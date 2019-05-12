@@ -1,7 +1,7 @@
 ---
 title: The overview of all my works
 excerpt: Thank you for supporting my journey!
-date: 2018-05-23
+date: 2019-05-10
 author: vladdsm
 categories:
   - topics
@@ -14,6 +14,7 @@ tags:
   - Udemy
   - Artificial Intelligence
   - eLearnings
+  - Udemy
 ---
 
 ## The big overview of all my works!
@@ -23,6 +24,11 @@ Hello! Thanks for coming here! I would be very happy to present here all my work
 I hope these courses will make sure that you "Save your time and let computers do the job!"
 
 *** All courses created and published so far: ***
+
+### Docker
+
+Docker Containers for Data Science and Reproducible Research
+[Course Tutorial to make your work reproducible using Docker Containers](https://www.udemy.com/docker-containers-data-science-reproducible-research/?couponCode=DOCKERRR)
 
 ### Computer Productivity
 
@@ -55,4 +61,6 @@ Part 5: [Forex News and Sentiment Analysis)](https://www.udemy.com/forex-news-an
 Part 6: [Detect Market status with AI)](https://www.udemy.com/detect-market-status-with-ai/?couponCode=LAZYTRADE6-10)
 
 Part 7: [Developing Self Learning Trading Robot)](https://www.udemy.com/self-learning-trading-robot/?couponCode=LAZYTRADE7-10)
+
+
 
