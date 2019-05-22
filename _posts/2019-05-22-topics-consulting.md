@@ -20,17 +20,17 @@ tags:
 
 ## Having idea of a project and wish to discuss that?!
 
-### 15 min meeting - free
+### A quick 15 min catchup?
 
-https://calendly.com/book-vlad/15min
+(book here)[https://calendly.com/book-vlad/15min]
 
 ### Wish to discuss and set up a plan of implementation?
 
-https://calendly.com/book-vlad/30min
+(book here)[https://calendly.com/book-vlad/30min]
 
 ### Ready for a coaching and tutoring?
 
-https://calendly.com/book-vlad/60min
+(book here)[https://calendly.com/book-vlad/60min]
 
 ## Which problems could we address?
 
