@@ -3,6 +3,7 @@ title: Why do I write an R package
 excerpt: Sharing experience of building your first R package
 date: 2019-06-26
 author: vladdsm
+background-image: business-2717066_1920.jpg
 categories:
   - topics
 tags:
