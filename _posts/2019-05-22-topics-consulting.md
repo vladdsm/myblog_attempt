@@ -3,6 +3,7 @@ title: Data Science and Computer Science consulting
 excerpt: Feel free to book the appointment
 date: 2019-05-22
 author: vladdsm
+background-image: consulting-3031678_1920.jpg
 categories:
   - topics
 tags:

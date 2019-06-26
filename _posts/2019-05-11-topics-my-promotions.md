@@ -3,6 +3,7 @@ title: The overview of all my works
 excerpt: Thank you for supporting my journey!
 date: 2019-05-10
 author: vladdsm
+background-image: business-2717066_1920.jpg
 categories:
   - topics
 tags:
