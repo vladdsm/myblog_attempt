@@ -79,11 +79,11 @@ Nevertheless nature is still 'fights back' and one can observe places visited by
 
 #### Delimited nest of the Sea Turtle (picture after the storm)
 
-<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-4.jpg" alt="speakom"   />
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-4.JPG" alt="speakom"   />
 
 Most of the bars would be closed however there still would be some especially on the places where there are still some residual tourists or locals
 
-<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-1.jpg" alt="speakom"   />
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-1.JPG" alt="speakom"   />
 
 ### Sightseeing
 
@@ -103,11 +103,11 @@ well there is no Etna in the list... perhaps any other time
 
 #### Picture from Valley of Temples
 
-<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-2.jpg" alt="speakom"   />
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-2.JPG" alt="speakom"   />
 
 #### Picture from Scala dei Turchi
 
-<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-3.jpg" alt="speakom"   />
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-3.JPG" alt="speakom"   />
 
 ### Medical Services
 
@@ -119,7 +119,7 @@ Thanks to the season we went to the olive oil farms. On one of those we were abl
 
 #### Device to check olive oil acidity
 
-<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-5.jpg" alt="speakom"   />
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/sicily-5.JPG" alt="speakom"   />
 
 Green olives, dried tomatoes, conserved fish, origano, wine these are the things one may take back. Of course it really depends whether you came with your car or by public transport...
 
