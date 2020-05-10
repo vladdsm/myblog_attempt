@@ -34,12 +34,22 @@ Actually my goal is to simply describe these two things:
 ### 3D printer
 
 There are quite a few choices on the market. I started with a simplest AnetA8 printer.
-However there are quite some more nice things like Ultimaker
+However there are quite some more nice things like [Ultimaker](https://ultimaker.com/3d-printers)
 
 ### Materials to melt
 
 3d printers usually works by melting a plastic filament. It can be made usually from PLA or ABS polymers.
-The best is to place this device somewhere in the cellar as there would be some plastic smell probably not really healthy to breath...
+
+### Where to place 3d printer?
+
+The best is to place this device somewhere far from living rooms:
+
+* noise as it may be printing during night
+* plastic smell probably not really healthy to breath...
+
+### Where to get inspiration?
+
+To get things or even post things everyone seems to use [thingiverse](https://www.thingiverse.com/)
 
 ### Software to create 3D models
 
@@ -60,7 +70,9 @@ Once we have a model in a *.stl format we can use so called 'Slicer software'.
 This software will be able to process model and create a sets of instructions for 3D printer.
 Every little detail including temperature, movements, internal grids, etc
 
-The most recommended software is named Cura
+The most popular one seems to be [Ultimaker Cura](https://ultimaker.com/software)
+
+## Typical 
 
 ## Obtain/refresh these Engineering Skills 
 
