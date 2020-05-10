@@ -26,13 +26,18 @@ This course is designed to quickly start using Docker Containers for Data Scienc
 - Be able to reproduce and share your work on a different infrastructure
 - Use RStudio in a Sandbox
 - Build your personalized templates to run R programs
+- Learn how to deploy Shiny App as a Docker Container
+- Learn how to convert Shiny App to the R Package with golem framework
+- Be able to set up Continuous Integration
 
 #### Apart of that:
 
 - Learn basic docker commands
+- Practice version control (clone provided GitHub repositories)
 - Get all your work in Version Control and enjoy Autobuild functions
 - Better plan your work by using provided Blueprint templates
+- Get insights on Docker-compose
 
 #### Curious about this project?
 
-Join this course with discounted coupons [*Limited availability!*](https://www.udemy.com/docker-containers-data-science-reproducible-research/?couponCode=DOCKERRR) 
+Join this course with [referral link](https://www.udemy.com/course/docker-containers-data-science-reproducible-research/?referralCode=8CFCF7D8B36B99E28012) 
