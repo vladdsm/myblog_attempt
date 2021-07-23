@@ -122,7 +122,7 @@ This is the only benefit I can guarantee - is to learn Computer and Data Science
 
 Should you wish to donate some coins to support this project [please optionally indicate your Udemy name]:
 
-BTH:
+BTC:
 
 <img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/BTC_CoinBase.png" alt="speakom"   />
 
