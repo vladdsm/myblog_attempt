@@ -1,5 +1,5 @@
 ---
-title: Blueberry broker affiliate program
+title: Blueberry is a recommended broker for Lazytrade students
 excerpt: Trade responsibly
 date: 2021-11-06
 author: vladdsm
@@ -8,6 +8,7 @@ categories:
   - topics
 tags:
   - featured
+  - Recommended broker
   - algorithmic trading
   - Version Control
   - Decision Support System
@@ -49,13 +50,18 @@ NOTE: This is valid until *2021-12-31*
 
 Sustainability promise:
 
-* Author of Lazytrade courses will donate all affiliate gains to local Sports clubs in the area
+* Author of Lazytrade courses will donate all gains linked to this collaboration to local Sport club in the area of Thun, Switzerland
 
 ### How to apply?
 
-Use the affiliate link:
+1. Use the referral broker link:
 
-https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L
+[https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L](https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L)
+
+<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/BB-ImageBanner.JPG" alt="speakom"   />
+
+2. Mention that you are the Udemy Student of Lazytrade Educational project while contacting Blueberry Customer Service and check exact conditions of being part of this program
+
 
 ### Disclaimer
 
