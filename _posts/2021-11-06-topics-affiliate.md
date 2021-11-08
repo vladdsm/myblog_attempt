@@ -22,18 +22,65 @@ tags:
 
 ### Limitations
 
-Residents of the following countries are not eligible to participate!
+#### Age
+
+You must be aged 18 years or older
+
+#### Countries
+
+Citizens or residents of the following countries (list may be updated from time to time by Blueberry in its sole and absolute discretion)
+ are not eligible to participate:
+
+Burundi 
+New Zealand
+Belgium
+Trinidad and Tobago
+Venezuela
+Central African Republic
+Azerbaijan
+Cyprus
+Puerto Rico
+Democratic Republic of the Congo
+Iran
+Kosovo
+United States
+Somalia
+Republic of the Congo
+Iraq
+Republic of Serbia
+Unites States Minor Outlying Islands
+Eritrea
+Israel
+Japan
+Libya
+Lebanon
+Sierra Leone
+Myanmar
+South Sudan
+North Korea
+Sudan
+Tunisia
+Russian
+Federation
+Syria
+Turkey
+Yemen
+Zimbabwe
 
 ### Advantages
 
 Compensation of courses payments could be made once real deposit is made
 Customer service directly through blueberry markets
 
+* Best Customer Service
+* Attractive spreads
+* 
+
 ### How to apply?
 
 Use the affiliate link:
 
-Coming soon
+https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L
 
 ### Disclaimer
 
