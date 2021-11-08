@@ -57,7 +57,7 @@ Burundi - New Zealand - Trinidad and Tobago - Venezuela - Central African Republ
 
 [https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L](https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L)
 
-[![https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L]("https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/BB-ImageBanner.JPG")](https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L)
+[![https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L](https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/BB-ImageBanner.JPG)](https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L)
 
 #### Mention that you are the Udemy Student of Lazytrade Educational project
 
