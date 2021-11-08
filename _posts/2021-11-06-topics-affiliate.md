@@ -37,30 +37,31 @@ Burundi - New Zealand - Trinidad and Tobago - Venezuela - Central African Republ
 
 ### Advantages
 
-Special conditions for Students (subject of approval by Blueberry Market) :
+#### Special conditions for Students (subject of approval by Blueberry Market) :
 
 * Students may opt for Course Fees compensation once real deposit is made
 
-Apart of that:
+#### Apart of that:
 
 * Best Customer Service
 * Attractive spreads
+* NOTE: This is valid until *2021-12-31*
 
-NOTE: This is valid until *2021-12-31*
-
-Sustainability promise:
+#### Sustainability promise:
 
 * Author of Lazytrade courses will donate all gains linked to this collaboration to local Sport club in the area of Thun, Switzerland
 
 ### How to apply?
 
-1. Use the referral broker link:
+#### Use the referral broker link:
 
 [https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L](https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L)
 
-<img src ="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/BB-ImageBanner.JPG" alt="speakom"   />
+[![https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L]("https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/BB-ImageBanner.JPG")](https://secure.blueberrymarkets.com/en/auth/create-account/?refer=11087MT4-BB-L)
 
-2. Mention that you are the Udemy Student of Lazytrade Educational project while contacting Blueberry Customer Service and check exact conditions of being part of this program
+#### Mention that you are the Udemy Student of Lazytrade Educational project
+
+...while contacting Blueberry Customer Service and check exact conditions of being part of this program
 
 
 ### Disclaimer
