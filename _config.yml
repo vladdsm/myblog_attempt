@@ -11,7 +11,7 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: "Industry 4.0 and more..."
+title: "Space of ideas and more..."
 description: Save your time &#x2192; Let computers do the job!
 owner:
   name: Vladimir Zhbanko # or company name
@@ -34,7 +34,7 @@ closing-para: Feel free to get in touch. Cheers!
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/vladdsm
+  twitter: https://x.com/vladdsm
   github: https://github.com/vladdsm
   linkedin-square: https://linkedin.com/in/vladimir-zhbanko-a9285188/
   #facebook-official: https://facebook.com/
@@ -43,7 +43,7 @@ social:
   #email: /contact/
   #flickr:
   #instagram:
-  youtube-square: http://www.youtube.com/channel/UCHkFSk-4Suxqcn4dqzo_ZuQ
+  #youtube-square: http://www.youtube.com/channel/UCHkFSk-4Suxqcn4dqzo_ZuQ
   #spotify:
   #stack-overflow:
   #vimeo:
