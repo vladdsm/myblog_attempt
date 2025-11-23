@@ -14,7 +14,7 @@ tags:
 output:
   md_document:
     variant: gfm        # GitHub-flavored Markdown
-    preserve_yaml: true # keeps front matter for Hugo/Jekyll
+    preserve_yaml: true # keeps front matter for your site
 ---
 
 ------------------------------------------------------------------------
@@ -82,7 +82,7 @@ the following short-comings were reported:
 
 In summary, initially defined Business Case did not materialise itself
 
-![](unnamed-chunk-1-1.png)<!-- -->
+<img src="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/2025-11-22-topics-use-case-PL-unnamed-chunk-1-1.png" alt="plot" />
 
 ## Task
 
@@ -137,7 +137,7 @@ dew_point <- function(temp, rh) {
 
 For example, risk of condensation could then be visualized:
 
-![](unnamed-chunk-3-1.png)<!-- -->
+<img src="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/2025-11-22-topics-use-case-PL-unnamed-chunk-3-1.png" alt="plot" />
 
 That risk could be directly controlled and mitigated through the PLC
 code. In this case, we are adding dry compressed air into the system
@@ -204,9 +204,9 @@ setup
 - **Facets** → separate panels for Package Type (TypeA vs. TypeB).  
 - **Axes** → Energy (Low/High) vs. Age (New/Old).
 
-![](unnamed-chunk-5-1.png)<!-- -->
+<img src="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/2025-11-22-topics-use-case-PL-unnamed-chunk-5-1.png" alt="plot" />
 
-![](doe.png)
+![](images/doe.png)
 
 #### Obtained data
 
@@ -239,21 +239,21 @@ This dataset is **synthetic but consistent with the following logic**:
     ## Ignoring unknown labels:
     ## • shape : "Age of Part"
 
-![](unnamed-chunk-7-1.png)<!-- -->
+<img src="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/2025-11-22-topics-use-case-PL-unnamed-chunk-7-1.png" alt="plot" />
 
 ### Modeling
 
 After initial consideration, few more trials have been made adding
 increased energy point. This helped to better understand the system.
 
-![](unnamed-chunk-8-1.png)<!-- -->
+<img src="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/2025-11-22-topics-use-case-PL-unnamed-chunk-8-1.png" alt="plot" />
 
 ### Random Data Generation and Model Prediction
 
 Graph below shows the model prediction on synthetic dataset (including
 with that of un-seen data):
 
-![](unnamed-chunk-9-1.png)<!-- -->
+<img src="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/2025-11-22-topics-use-case-PL-unnamed-chunk-9-1.png" alt="plot" />
 
 ## Achievement
 
