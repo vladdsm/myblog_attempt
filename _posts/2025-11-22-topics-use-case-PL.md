@@ -35,6 +35,8 @@ rather show how powerful could be a combination of:
 This article will use illustrations generated from data, AI generated
 images and code
 
+<img src="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/futuristic-plasma.png" alt="plot" />
+
 ------------------------------------------------------------------------
 
 ### Disclaimer
@@ -206,7 +208,7 @@ setup
 
 <img src="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/2025-11-22-topics-use-case-PL-unnamed-chunk-5-1.png" alt="plot" />
 
-![](images/doe.png)
+<img src="https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/images/doe.png" alt="plot" />
 
 #### Obtained data
 
@@ -297,9 +299,7 @@ bring clarity into the team work. Everyone from engineering to quality
 could understand the process, meaningfully contribute to the team and be
 recognized for the achieved results.
 
-## Result
-
-### Economical effect
+### Economic effect
 
 Effect of solved problem can be qualitatively described below:
 
@@ -318,4 +318,14 @@ benefits:
 - More efficient equipment use, lower operational costs can be leveraged
   to define service business opportunities. For example, in case such
   system is installed on 500 machines and the yearly license is 2025CHF,
-  then the yearly service revenue can be: 1’012’500 CHF.
+  then the yearly service revenue can be: 1’013’000 CHF.
+
+## Result
+
+The key learning of this use case is not only in the fact that performed
+work helped to ‘save face of technology’, but in the method. In fact, in
+the above examples we can observe different Data Science methods applied
+to the engineering problem.
+
+The key to success was in a powerful combination: *Engineering
+Curiosity*, *Data Science*, *Teamwork*
