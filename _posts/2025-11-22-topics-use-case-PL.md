@@ -82,7 +82,7 @@ the following short-comings were reported:
 
 In summary, initially defined Business Case did not materialise itself
 
-![](images/unnamed-chunk-1-1.png)<!-- -->
+![](unnamed-chunk-1-1.png)<!-- -->
 
 ## Task
 
@@ -137,7 +137,7 @@ dew_point <- function(temp, rh) {
 
 For example, risk of condensation could then be visualized:
 
-![](images/unnamed-chunk-3-1.png)<!-- -->
+![](unnamed-chunk-3-1.png)<!-- -->
 
 That risk could be directly controlled and mitigated through the PLC
 code. In this case, we are adding dry compressed air into the system
@@ -204,9 +204,9 @@ setup
 - **Facets** → separate panels for Package Type (TypeA vs. TypeB).  
 - **Axes** → Energy (Low/High) vs. Age (New/Old).
 
-![](images/unnamed-chunk-5-1.png)<!-- -->
+![](unnamed-chunk-5-1.png)<!-- -->
 
-![](images/doe.png)
+![](doe.png)
 
 #### Obtained data
 
@@ -239,21 +239,21 @@ This dataset is **synthetic but consistent with the following logic**:
     ## Ignoring unknown labels:
     ## • shape : "Age of Part"
 
-![](images/unnamed-chunk-7-1.png)<!-- -->
+![](unnamed-chunk-7-1.png)<!-- -->
 
 ### Modeling
 
 After initial consideration, few more trials have been made adding
 increased energy point. This helped to better understand the system.
 
-![](images/unnamed-chunk-8-1.png)<!-- -->
+![](unnamed-chunk-8-1.png)<!-- -->
 
 ### Random Data Generation and Model Prediction
 
 Graph below shows the model prediction on synthetic dataset (including
 with that of un-seen data):
 
-![](images/unnamed-chunk-9-1.png)<!-- -->
+![](unnamed-chunk-9-1.png)<!-- -->
 
 ## Achievement
 
