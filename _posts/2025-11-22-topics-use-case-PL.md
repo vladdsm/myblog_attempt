@@ -6,6 +6,7 @@ categories: topics
 excerpt: Turn problem into service revenue opportunity [7 min read]
 background-image: "futuristic-plasma.png"
 tags:
+- featured
 - problem solving
 - FMEA
 - DoE
