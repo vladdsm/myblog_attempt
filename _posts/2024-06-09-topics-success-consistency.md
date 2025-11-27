@@ -7,7 +7,6 @@ background-image: Consistency.jpg
 categories:
   - topics
 tags:
-  - featured
   - success
   - positive thinking
   - life

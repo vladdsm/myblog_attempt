@@ -1,3 +1,32 @@
+## render Rmd files
+
+Keep this code in the Rmd
+
+```{r setup, include=FALSE}
+# ---- Setup for unique image handling ----
+
+# Define a unique prefix for this post (match your .md filename)
+post_prefix <- "2025-11-22-topics-use-case-PL-"
+
+# Configure knitr chunk options
+knitr::opts_chunk$set(
+  fig.path = paste0("images/", post_prefix),  # save plots into root/images/
+  fig.ext  = "png",
+  fig.align = "center"
+)
+
+# Custom hook: replace default ![] markdown with <img src="...">
+knitr::knit_hooks$set(plot = function(x, options) {
+  raw_url <- paste0(
+    "https://raw.githubusercontent.com/vladdsm/myblog_attempt/master/",
+    x
+  )
+  sprintf('<img src="%s" alt="plot" />', raw_url)
+})
+
+```
+
+
 ## Instructions to running this website
 
 Source: arkadianriver.com:

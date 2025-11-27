@@ -7,6 +7,7 @@ background-image: IMG-0312.jpg
 categories:
   - topics
 tags:
+  - featured
   - 3d
   - printer
   - modelling
